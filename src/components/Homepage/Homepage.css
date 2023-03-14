@@ -8,10 +8,22 @@
   overflow-y: scroll;
 }
 
+.read-about{
+  display: flex;
+  height: 40vh;
+  width: 75vw;
+  border: 2px solid black;
+  font-size: large;
+  flex-direction: column;
+  letter-spacing: 3px;
+  background-color: rgba(128, 128, 128, 0.559);
+  overflow-y: scroll;
+  margin-top: 5vh;
+}
 
 .homepage-title {
-  color: rgb(255, 160, 77);
-  font-size: 8vh;
+  color: rgb(16, 9, 2);
+  font-size: 5vh;
 }
 
 .introduction-container {
@@ -24,24 +36,24 @@
   background-color: rgba(128, 128, 128, 0.559);
   overflow-y: scroll;
 }
+
+.read-about::-webkit-scrollbar,
 .introduction-container::-webkit-scrollbar{
   display: none;
 }
 
 .intro {
   color: rgb(3, 0, 0);
-  font-size: 4vh;
+  font-size: 3vh;
+  margin: 1.7vh;
 }
 
 .intro-title {
   color: rgb(15, 100, 228);
-  font-size: 6vh;
+  font-size: 4vh;
 }
 
-.homepage-button {
-  height: 4vh;
-  width: 10vw;
-  border-radius: 12px;
-  background-color: gray;
-  margin-top: 2vh;
+.about-me-text{
+  margin: 1.7vh;
 }
+

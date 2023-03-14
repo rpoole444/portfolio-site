@@ -4,17 +4,26 @@ import logo from "./music-maker-app.png"
 import logo2 from "./insta.png"
 import logo3 from "./github-mark.png"
 import logo4 from "./linked.png"
+import { Route, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
       <div className="list-container">
-        <img src={logo} alt="computer" className="logo" />
-        <a>About Me</a>
-        <a>Work</a>
-        <a>Skills & Tools</a>
-        <a>Music</a>
-        <a>Contact</a>
+        <NavLink to="/" >
+          <img src={logo} alt="computer" className="logo" />
+        </NavLink>
+        <a href="#aboutMe">
+          <button className="button">About Me</button>
+        </a>
+        <a href="#work"></a>
+        <button className="button">Work</button>
+        <a href="#skills"></a>
+        <button className="button">Skills & Tools</button>
+        <a href="#music"></a>
+        <button className="button">Music</button>
+        <a href="#contact"></a>
+        <button className="button">Contact</button>
         <a href="https://www.instagram.com/reid_poole_music/" target="_blank" rel="noreferrer">
           <img className="logo-side" src={logo2} alt="instagram-logo"/>
         </a>
@@ -25,8 +34,6 @@ const Header = () => {
           <img className="logo-side" src={logo4} alt="linked-in-logo" />
         </a>
       </div>
-      <h1 className="homepage-title">Welcome To Reid Poole's Portfolio</h1>
-
     </header>
   )
 }
