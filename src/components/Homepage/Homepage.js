@@ -30,6 +30,36 @@ I'd like to share that I have experience in Tech and Software from being a digit
           </p>
         </article>
       </section>
+      <section id="work" className="work-container">
+        <section className="project-container">
+          <h2 className="proj-title">Artist Archive</h2>
+          <section className="project-info">
+            <iframe src="https://giphy.com/embed/yKym67WoKt3AIQ38UH" width="480" height="300" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+            <article className="proj-description">Artist Project information Here!</article>
+          </section>
+        </section>
+        <section className="project-container">
+          <h2 className="proj-title">Shelf Life</h2>
+          <section className="project-info">
+            <iframe src="https://giphy.com/embed/yKym67WoKt3AIQ38UH" width="480" height="300" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+            <article className="proj-description">Shelf Life information Here!</article>
+          </section>
+        </section>
+        <section className="project-container">
+          <h2 className="proj-title">Fit Lit</h2>
+          <section className="project-info">
+            <iframe src="https://giphy.com/embed/yKym67WoKt3AIQ38UH" width="480" height="300" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+            <article className="proj-description">Fit Lit Information Here!</article>
+          </section>
+        </section>
+        <section className="project-container">
+          <h2 className="proj-title">Rancid Tomatillos</h2>
+          <section className="project-info">
+            <iframe src="https://giphy.com/embed/yKym67WoKt3AIQ38UH" width="480" height="300" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+            <article className="proj-description">Rancid Tomatillos Information Here</article>
+          </section>
+        </section>
+      </section>
     </main>
   );
 };

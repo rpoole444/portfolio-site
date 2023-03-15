@@ -1,6 +1,6 @@
 .homepage {
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-size:auto;
   flex-direction: column;
@@ -10,7 +10,7 @@
 
 .read-about{
   display: flex;
-  height: 40vh;
+  height: 59vh;
   width: 75vw;
   border: 2px solid black;
   font-size: large;
@@ -18,17 +18,13 @@
   letter-spacing: 3px;
   background-color: rgba(128, 128, 128, 0.559);
   overflow-y: scroll;
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 
-.homepage-title {
-  color: rgb(16, 9, 2);
-  font-size: 5vh;
-}
 
 .introduction-container {
   display: flex;
-  height: 70vh;
+  height: 83vh;
   width: 50vw;
   border: 2px solid black;
   flex-direction: column;
@@ -36,10 +32,14 @@
   background-color: rgba(128, 128, 128, 0.559);
   overflow-y: scroll;
 }
-
 .read-about::-webkit-scrollbar,
 .introduction-container::-webkit-scrollbar{
   display: none;
+}
+
+.homepage-title {
+  color: rgb(16, 9, 2);
+  font-size: 5vh;
 }
 
 .intro {
@@ -57,3 +57,44 @@
   margin: 1.7vh;
 }
 
+
+.work-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 150vh;
+  border: 2px solid red;
+  margin-top: 10vh;
+}
+
+.project-container{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green;
+  height: 35vh;
+  width: 85vw;
+}
+
+.proj-description{
+  height: 20vh;
+  width: 35vw;
+  border: 2px solid blue;
+}
+
+.giphy-embed{
+  height: 25vh;
+  width: 25vw;
+}
+
+.proj-title{
+  font-size: 2.5vh;
+}
+
+.project-info{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+}

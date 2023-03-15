@@ -16,8 +16,9 @@ const Header = () => {
         <a href="#aboutMe">
           <button className="button">About Me</button>
         </a>
-        <a href="#work"></a>
-        <button className="button">Work</button>
+        <a href="#work">
+          <button className="button">Work</button>
+        </a>
         <a href="#skills"></a>
         <button className="button">Skills & Tools</button>
         <a href="#music"></a>
