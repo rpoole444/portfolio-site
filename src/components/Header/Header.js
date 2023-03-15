@@ -1,9 +1,9 @@
 import React from "react";
 import "./Header.css"
-import logo from "./music-maker-app.png"
-import logo2 from "./insta.png"
-import logo3 from "./github-mark.png"
-import logo4 from "./linked.png"
+import logo from "../assets/music-maker-app.png"
+import logo2 from "../assets/insta.png"
+import logo3 from "../assets/github-mark.png"
+import logo4 from "../assets/linked.png"
 import { Route, NavLink } from "react-router-dom";
 
 const Header = () => {
