@@ -19,12 +19,15 @@ const Header = () => {
         <a href="#work">
           <button className="button">Work</button>
         </a>
-        <a href="#skills"></a>
-        <button className="button">Skills & Tools</button>
-        <a href="#music"></a>
-        <button className="button">Music</button>
-        <a href="#contact"></a>
-        <button className="button">Contact</button>
+        <a href="#skills">
+          <button className="button">Skills & Tools</button>
+        </a>
+        <a href="#music">
+          <button className="button">Music</button>
+        </a>
+        <a href="#contact">
+          <button className="button">Contact</button>
+        </a>
         <a href="https://www.instagram.com/reid_poole_music/" target="_blank" rel="noreferrer">
           <img className="logo-side" src={logo2} alt="instagram-logo"/>
         </a>
