@@ -37,28 +37,57 @@ I'd like to share that I have experience in Tech and Software from being a digit
           <h2 className="proj-title">Artist Archive</h2>
           <section className="project-info">
             <iframe src={artistArchiveGif2} title="artistArchive" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
-            <article className="proj-description">Artist Archive aims to inspire the uninspired ear!  This website contains a special collection of Incredible musical artist from many differing genres.  Look through the Archive and find new and exciting musical artists!  Each artist click takes you to a description and an inspiring musical video of the Artist.  But wait, if a user finds an artists that resonate with them, you can collect your favorites into a private favorites collections!  Don't waste another moment and find the deployed site below!!</article>
+            <section className="description-buttons">
+              <article className="proj-description">Artist Archive aims to inspire the uninspired ear!  This website contains a special collection of Incredible musical artist from many differing genres.  Look through the Archive and find new and exciting musical artists!  Each artist click takes you to a description and an inspiring musical video of the Artist.  But wait, if a user finds an artists that resonate with them, you can collect your favorites into a private favorites collections!  Don't waste another moment and find the deployed site below!!</article>
+              <a href="https://github.com/rpoole444/ArtistArchive-FE">
+                <button className="proj-buttons">Repo</button>
+              </a>
+              <a href="https://artist-archive-fe.herokuapp.com/">
+                <button className="proj-buttons">Visit Site</button>
+              </a>
+            </section>
           </section>
         </section>
         <section className="project-container">
           <h2 className="proj-title">Shelf Life</h2>
           <section className="project-info">
             <iframe src="https://giphy.com/embed/yKym67WoKt3AIQ38UH"  title="shelfLife" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
-            <article className="proj-description">Do you have a hard time picking out the right book to read? Well look no further, Shelf Life is here to help! This App is a book recomendation app where you are able to look at a database of books referred by the Creators and add the book to your favorites based on your interest and the recomendation! Further more, you are able to search the New York Times top 100 best sellers and add your recommendation to the recommendation database.</article>
+            <section>
+              <article className="proj-description">Do you have a hard time picking out the right book to read? Well look no further, Shelf Life is here to help! This App is a book recomendation app where you are able to look at a database of books referred by the Creators and add the book to your favorites based on your interest and the recomendation! Further more, you are able to search the New York Times top 100 best sellers and add your recommendation to the recommendation database.</article>
+              <a href="https://github.com/rpoole444/shelf-life-FE">
+                <button className="proj-buttons">Repo</button>
+              </a>
+              <a href="https://shelf-life-k0fgat1zg-rpoole444.vercel.app/">
+                <button className="proj-buttons">Visit Site</button>
+              </a>
+            </section>
           </section>
         </section>
         <section className="project-container">
           <h2 className="proj-title">Fit Lit</h2>
           <section className="project-info">
             <iframe src={fitLitGif} title="fitLit" frameBorder="0" className="giphy-embed fit-lit"></iframe>
-            <article className="proj-description">The purpose of this app is to display a user's data, such as sleep, hydration and activity for the latest day and week including comparisions to the average of all user's for each topic. The user is able to add their own data for a given date.</article>
+            <section>
+              <article className="proj-description">The purpose of this app is to display a user's data, such as sleep, hydration and activity for the latest day and week including comparisions to the average of all user's for each topic. The user is able to add their own data for a given date.</article>
+              <a href="https://github.com/jheidepriem/fitLit-tracker">
+                <button className="proj-buttons">Repo</button>
+              </a>
+            </section>
           </section>
         </section>
         <section className="project-container">
           <h2 className="proj-title">Ceaseless Cinemas</h2>
           <section className="project-info">
             <iframe src={ceaselessCinemaGif} title="ceaselessCinema" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
-            <article className="proj-description">If you're interested in the latest films, Ceaseless Cinema is here for you! You can search through all of the films and find their trailers and film details such as, runtime, release date, budge, revenue, description, and their official trailer.</article>
+            <section>
+              <article className="proj-description">If you're interested in the latest films, Ceaseless Cinema is here for you! You can search through all of the films and find their trailers and film details such as, runtime, release date, budge, revenue, description, and their official trailer.</article>
+              <a href="https://github.com/rpoole444/rancidTomatillos">
+                <button className="proj-buttons">Repo</button>
+              </a>
+              <a href="https://rancid-tomatillos-tau.vercel.app/">
+                <button className="proj-buttons">Visit Site</button>
+              </a>
+            </section>
           </section>
         </section>
       </section>
