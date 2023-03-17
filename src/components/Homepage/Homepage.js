@@ -3,6 +3,8 @@ import "./Homepage.css";
 import fitLitGif from "../assets/gitLitGif1.gif"
 import artistArchiveGif2 from "../assets/artistArchiveGif2.gif"
 import ceaselessCinemaGif from "../assets/ceaselessCinema1.gif"
+import computer from "../assets/computer.png"
+import trumpet from "../assets/trumpet.png"
 const Homepage = () => {
  
   return (
@@ -16,19 +18,26 @@ const Homepage = () => {
           This site is dedicated to my work as a Software Engineer and
           Developer!
         </p>
-        <p className="intro">I am also a conservatory trained and New Orleans professional musician,</p> 
-        <p className="intro">I am an Educator and Life Long Learner</p> 
+        <section className="images-container">
+          <img className="computer-icon" src={computer} alt="computer" />
+          <img className="computer-icon" src={trumpet} alt="trumpet" />
+        </section>
+        <p className="intro">I am also a conservatory trained and professional New Orleans Musician</p> 
+        <p className="intro">I am a passionate Educator and Life Long Learner</p> 
         <p className="intro">I am a runner, a joker, and a brewery and bbq tourist</p>
-        <p className="intro">And, most importantly, I am a proud husband and father of 2!</p>
+        <p className="intro">Most importantly, I am a proud husband and father of 2!</p>
         <p className="intro">...Come on in!</p>
       </article>
       <section id="aboutMe" className="about-me">
         <article className="read-about">
           <p className="about-me-text">
-            I'm a Frontend Engineer with expertise in Javascript, React.js, Router, HTML, and CSS. I also have Backend experience with building full-stack apps using Express.js, Knex.js, and PostgreSQL.
-I'd also like to capture that I am a through-and-through musician that has a deep connection and experience in music. I've been performing full-time in New Orleans as well as on national and international tours for the past 13 years. I relate the language of music to code in many substantial ways that carry over very easily and intuitively. 
-I am an Educator that has taught for more than 15 years, I've taught a spectrum of ages, from middle school to high school, and private lesson studios, but I'd like to highlight my experience in Higher Education as a professor of Music Industry at Dillard University. 
-I'd like to share that I have experience in Tech and Software from being a digital archivist for the Louis Armstrong House Museum, based in Queens, NY, helping to develop the rich history of Louis Armstrong for easy user and fan access online. I'm especially proud of this because it includes my three passions of Software Development, Music, and Education!
+            My expertise lies within Javascript, React.js, Router, HTML, and CSS. I also have Backend experience with building full-stack apps using Express.js, Knex.js, and PostgreSQL.
+
+ I am a through-and-through musician that has a deep connection and experience in music. I've been performing full-time in New Orleans as well as on national and international tours for the past 13 years. I relate the language of music to code in many substantial ways that carry over very easily and intuitively. 
+
+I am an Educator that has taught for more than 15 years to a spectrum of ages, from middle school to high school, and private lesson studios, but I'd like to highlight my experience in Higher Education as a professor of Music Industry at Dillard University. 
+
+Finally, I'd like to share that I have experience in Tech and Software from being a digital archivist for the Louis Armstrong House Museum, based in Queens, NY, helping to develop the rich history of Louis Armstrong for easy user and fan access online. I'm especially proud of this because it includes my three passions of Software Development, Music, and Education!
           </p>
         </article>
       </section>
