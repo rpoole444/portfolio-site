@@ -1,8 +1,8 @@
 import React from "react";
 import "./Homepage.css";
-import fitLitGif from "../assets/gitLitGif.gif"
-import artistArchiveGif from "../assets/artistArchiveGif.gif"
-import ceaselessCinemaGif from "../assets/ceaselessCinema.gif"
+import fitLitGif from "../assets/gitLitGif1.gif"
+import artistArchiveGif2 from "../assets/artistArchiveGif2.gif"
+import ceaselessCinemaGif from "../assets/ceaselessCinema1.gif"
 const Homepage = () => {
  
   return (
@@ -36,7 +36,7 @@ I'd like to share that I have experience in Tech and Software from being a digit
         <section className="project-container">
           <h2 className="proj-title">Artist Archive</h2>
           <section className="project-info">
-            <iframe src={artistArchiveGif} title="artistArchive" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+            <iframe src={artistArchiveGif2} title="artistArchive" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
             <article className="proj-description">Artist Archive aims to inspire the uninspired ear!  This website contains a special collection of Incredible musical artist from many differing genres.  Look through the Archive and find new and exciting musical artists!  Each artist click takes you to a description and an inspiring musical video of the Artist.  But wait, if a user finds an artists that resonate with them, you can collect your favorites into a private favorites collections!  Don't waste another moment and find the deployed site below!!</article>
           </section>
         </section>
