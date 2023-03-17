@@ -16,7 +16,7 @@ const Homepage = () => {
           This site is dedicated to my work as a Software Engineer and
           Developer!
         </p>
-        <p className="intro">I am also a conservatory trained and New Orleans groomed professional musician,</p> 
+        <p className="intro">I am also a conservatory trained and New Orleans professional musician,</p> 
         <p className="intro">I am an Educator and Life Long Learner</p> 
         <p className="intro">I am a runner, a joker, and a brewery and bbq tourist</p>
         <p className="intro">And, most importantly, I am a proud husband and father of 2!</p>
