@@ -22,7 +22,7 @@ const Homepage = () => {
           <img className="computer-icon" src={computer} alt="computer" />
           <img className="computer-icon" src={trumpet} alt="trumpet" />
         </section>
-        <p className="intro">I am a conservatory trained and professional New Orleans Musician</p> 
+        <p className="intro">Additionally, I am a conservatory trained and professional New Orleans Musician</p> 
         <p className="intro">I am a passionate Educator and Life Long Learner</p> 
         <p className="intro">I am a runner, a joker, and a brewery and bbq tourist</p>
         <p className="intro">Most importantly, I am a proud husband and father of 2!</p>
