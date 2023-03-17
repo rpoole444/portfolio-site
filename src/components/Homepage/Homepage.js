@@ -13,7 +13,7 @@ const Homepage = () => {
       <article className="introduction-container">
         <h2 className="intro-title">Thanks for dropping by!</h2>
         <p className="intro">Allow Me to Introduce myself!</p>
-        <p className="intro">I'm Reid Poole 👋</p>
+        <p className="intro">I'm Reid Poole 👋, and I'm a Software Developer</p>
         <p className="intro">
           This site is dedicated to my work as a Software Engineer and
           Developer!
@@ -22,7 +22,7 @@ const Homepage = () => {
           <img className="computer-icon" src={computer} alt="computer" />
           <img className="computer-icon" src={trumpet} alt="trumpet" />
         </section>
-        <p className="intro">I am also a conservatory trained and professional New Orleans Musician</p> 
+        <p className="intro">I am a conservatory trained and professional New Orleans Musician</p> 
         <p className="intro">I am a passionate Educator and Life Long Learner</p> 
         <p className="intro">I am a runner, a joker, and a brewery and bbq tourist</p>
         <p className="intro">Most importantly, I am a proud husband and father of 2!</p>
