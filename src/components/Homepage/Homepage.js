@@ -71,7 +71,7 @@ const Homepage = () => {
             <section>
               <article className="proj-description">
                 <p className="description-text">
-                The purpose of this app is to display a user's data, such as sleep, hydration and activity for the latest day and week including comparisions to the average of all user's for each topic. The user is able to add their own data for a given date.
+                The purpose of our app, Fit Lit, is to store and display a user's data, such as sleep, hydration, and activity (think steps) for the latest day and week including comparisons to the average of all users for each topic. The user is able to add their own data for a given date and all of the data will be updated with the new additional data included
                 </p>
                 </article>
               <a href="https://github.com/jheidepriem/fitLit-tracker">
