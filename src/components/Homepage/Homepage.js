@@ -52,7 +52,7 @@ const Homepage = () => {
             <section className="description-buttons">
               <article className="proj-description">
                 <p className="description-text">
-                  Artist Archive aims to inspire the uninspired ear!  This website contains a special collection of Incredible musical artist from many differing genres.  Look through the Archive and find new and exciting musical artists!  Each artist click takes you to a description and an inspiring musical video of the Artist.  But wait, if a user finds an artists that resonate with them, you can collect your favorites into a private favorites collections!  Don't waste another moment and find the deployed site below!!
+                  Artist Archive aims to inspire the uninspired ear! This fullstack app contains a special collection of Incredible musical artists from many differing genres. Look through the Archive and find new and exciting music artists! Each artist's click takes you to a description and an inspiring music video of the Artist. But wait, if a user finds an artist that resonates with them, you can collect your favorites into private favorites collections! Don't waste another moment and find the deployed site below!!
                 </p>
                   </article>
               <a href="https://github.com/rpoole444/ArtistArchive-FE">
@@ -60,6 +60,22 @@ const Homepage = () => {
               </a>
               <a href="https://artist-archive-fe.herokuapp.com/">
                 <button className="proj-buttons">Visit Site</button>
+              </a>
+            </section>
+          </section>
+        </section>
+        <section className="project-container">
+          <h2 className="proj-title">Fit Lit</h2>
+          <section className="project-info">
+            <iframe src={fitLitGif} title="fitLit" frameBorder="0" className="giphy-embed fit-lit"></iframe>
+            <section>
+              <article className="proj-description">
+                <p className="description-text">
+                The purpose of this app is to display a user's data, such as sleep, hydration and activity for the latest day and week including comparisions to the average of all user's for each topic. The user is able to add their own data for a given date.
+                </p>
+                </article>
+              <a href="https://github.com/jheidepriem/fitLit-tracker">
+                <button className="proj-buttons">Repo</button>
               </a>
             </section>
           </section>
@@ -98,22 +114,6 @@ const Homepage = () => {
               </a>
               <a href="https://rancid-tomatillos-tau.vercel.app/">
                 <button className="proj-buttons">Visit Site</button>
-              </a>
-            </section>
-          </section>
-        </section>
-        <section className="project-container">
-          <h2 className="proj-title">Fit Lit</h2>
-          <section className="project-info">
-            <iframe src={fitLitGif} title="fitLit" frameBorder="0" className="giphy-embed fit-lit"></iframe>
-            <section>
-              <article className="proj-description">
-                <p className="description-text">
-                The purpose of this app is to display a user's data, such as sleep, hydration and activity for the latest day and week including comparisions to the average of all user's for each topic. The user is able to add their own data for a given date.
-                </p>
-                </article>
-              <a href="https://github.com/jheidepriem/fitLit-tracker">
-                <button className="proj-buttons">Repo</button>
               </a>
             </section>
           </section>
