@@ -44,21 +44,24 @@
 .homepage-title {
   color: rgb(16, 9, 2);
   font-size: 5vh;
+ 
 }
 
 .intro {
-  color: rgb(3, 0, 0);
+  color: snow;
   font-size: 3vh;
   margin: 1.7vh;
+
 }
 
 .intro-title {
   font-size: 4vh;
+  color: rgb(210, 197, 197);
 }
 
 .about-me-text{
   margin: 1.7vh;
-
+  color: snow
 }
 
 
@@ -134,4 +137,5 @@
 .description-text{
   letter-spacing: 1px;
   margin: 1vh;
+  color: snow;
 }
