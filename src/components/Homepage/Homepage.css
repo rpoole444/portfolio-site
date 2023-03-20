@@ -8,10 +8,18 @@
   overflow-y: scroll;
 }
 
+.link{
+  background-color: rgba(233, 76, 76, 0.378);
+  width: 68vw;
+  border-radius: 12px;
+  padding-left: 5vw;
+
+}
+
 .read-about{
   display: flex;
   justify-content: space-evenly;
-  height: 59vh;
+  height: 65vh;
   width: 75vw;
   border: 2px solid black;
   font-size: large;
@@ -103,6 +111,7 @@
   align-items: center;
   width: 80vh;
 }
+
 .computer-icon{
   height: 10vh;
 }
@@ -111,10 +120,12 @@
   height: 37vh;
   width: 35vw;
 }
+
 .fit-lit{
   height: 35vh;
   width: 37vw;
 }
+
 .proj-title{
   font-size: 2.5vh;
 }
@@ -132,10 +143,11 @@
   height: 5vh;
   width: 10vw;
   border-radius: 12px;
+   background-color: rgba(255, 255, 255, 0.596);
 }
 
 .description-text{
   letter-spacing: 1px;
   margin: 1vh;
-  color: snow;
+  color: black;
 }
