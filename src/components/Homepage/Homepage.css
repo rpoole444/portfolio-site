@@ -79,7 +79,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100vw;
-  height: 225vh;
+  height: 275vh;
   margin-top: 10vh;
 }
 
@@ -120,10 +120,43 @@
   height: 37vh;
   width: 35vw;
 }
-
+.ceaseless-cinema{
+  height: 35vh;
+  width: 37vw;
+  overflow: hidden; 
+  background-image: url('../assets/ceaselessCinema1.gif'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+.artist-archive{
+  height: 35vh;
+  width: 37vw;
+  overflow: hidden; 
+  background-image: url('../assets/artistArchiveGif2.gif'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
 .fit-lit{
   height: 35vh;
   width: 37vw;
+  overflow: hidden; 
+  background-image: url('../assets/gitLitGif1.gif'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+.grant-guru{
+
+  height: 35vh;
+  width: 37vw;
+  overflow: hidden; 
+  background-image: url('../assets/grant_guru.gif'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+
 }
 
 .proj-title{

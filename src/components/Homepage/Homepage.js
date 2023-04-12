@@ -1,10 +1,8 @@
 import React from "react";
 import "./Homepage.css";
-import fitLitGif from "../assets/gitLitGif1.gif"
-import artistArchiveGif2 from "../assets/artistArchiveGif2.gif"
-import ceaselessCinemaGif from "../assets/ceaselessCinema1.gif"
 import computer from "../assets/computer.png"
 import trumpet from "../assets/trumpet.png"
+
 const Homepage = () => {
  
   return (
@@ -47,32 +45,13 @@ const Homepage = () => {
       </section>
       <section id="work" className="work-container">
         <section className="project-container">
-          <h2 className="proj-title">Artist Archive</h2>
+          <h2 className="proj-title">Grant Guru</h2>
           <section className="project-info">
-            <iframe src={artistArchiveGif2} title="artistArchive" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
-            <section className="description-buttons">
-              <article className="proj-description">
-                <p className="description-text">
-                  Artist Archive aims to inspire the uninspired ear! This fullstack app contains a special collection of Incredible musical artists from many differing genres. Look through the Archive and find new and exciting music artists! Each artist's click takes you to a description and an inspiring music video of the Artist. But wait, if a user finds an artist that resonates with them, you can collect your favorites into private favorites collections! Don't waste another moment and find the deployed site below!!
-                </p>
-              </article>
-              <a href="https://github.com/rpoole444/ArtistArchive-FE" target="_blank" rel="noreferrer">
-                <button className="proj-buttons">Repo</button>
-              </a>
-              <a href="https://artist-archive-fe.herokuapp.com/" target="_blank" rel="noreferrer">
-                <button className="proj-buttons">Visit Site</button>
-              </a>
-            </section>
-          </section>
-        </section>
-        <section className="project-container">
-          <h2 className="proj-title">Fit Lit</h2>
-          <section className="project-info">
-            <iframe src={fitLitGif} title="fitLit" frameBorder="0" className="giphy-embed fit-lit"></iframe>
+            <iframe  title="grantGuru" frameBorder="0" className="giphy-embed grant-guru"></iframe>
             <section>
               <article className="proj-description">
                 <p className="description-text">
-                The purpose of our app, Fit Lit, is to store and display a user's data, such as sleep, hydration, and activity (think steps) for the latest day and week including comparisons to the average of all users for each topic. The user is able to add their own data for a given date and all of the data will be updated with the new additional data included
+                Grant Guru  is an application that allows a user to explore a database full of Scholarship and grant applications to Help students find fincial aid with ease!  Upon submition of the form, queries are sent to our backend where they filter the array of scholarships to fit the parameters and send us the filtered scholarships.A user is able to add and delete scholarships to and from their saved window. The app incorporates a responsive layout and will change its structure to fit both large and mobile displays. 
                 </p>
               </article>
               <a href="https://github.com/jheidepriem/fitLit-tracker" target="_blank" rel="noreferrer">
@@ -103,7 +82,7 @@ const Homepage = () => {
         <section className="project-container">
           <h2 className="proj-title">Ceaseless Cinemas</h2>
           <section className="project-info">
-            <iframe src={ceaselessCinemaGif} title="ceaselessCinema" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+            <iframe title="ceaselessCinema" frameBorder="0" className="giphy-embed ceaseless-cinema" allowFullScreen></iframe>
             <section>
               <article className="proj-description">
                 <p className="description-text">
@@ -114,6 +93,41 @@ const Homepage = () => {
                 <button className="proj-buttons">Repo</button>
               </a>
               <a href="https://rancid-tomatillos-tau.vercel.app/" target="_blank" rel="noreferrer">
+                <button className="proj-buttons">Visit Site</button>
+              </a>
+            </section>
+          </section>
+        </section>
+        <section className="project-container">
+          <h2 className="proj-title">Fit Lit</h2>
+          <section className="project-info">
+            <iframe title="fitLit" frameBorder="0" className="giphy-embed fit-lit"></iframe>
+            <section>
+              <article className="proj-description">
+                <p className="description-text">
+                The purpose of our app, Fit Lit, is to store and display a user's data, such as sleep, hydration, and activity (think steps) for the latest day and week including comparisons to the average of all users for each topic. The user is able to add their own data for a given date and all of the data will be updated with the new additional data included
+                </p>
+              </article>
+              <a href="https://github.com/jheidepriem/fitLit-tracker" target="_blank" rel="noreferrer">
+                <button className="proj-buttons">Repo</button>
+              </a>
+            </section>
+          </section>
+        </section>
+        <section className="project-container">
+          <h2 className="proj-title">Artist Archive</h2>
+          <section className="project-info">
+            <iframe title="artistArchive" frameBorder="0" className="giphy-embed artist-archive" allowFullScreen></iframe>
+            <section className="description-buttons">
+              <article className="proj-description">
+                <p className="description-text">
+                  Artist Archive aims to inspire the uninspired ear! This fullstack app contains a special collection of Incredible musical artists from many differing genres. Look through the Archive and find new and exciting music artists! Each artist's click takes you to a description and an inspiring music video of the Artist. But wait, if a user finds an artist that resonates with them, you can collect your favorites into private favorites collections! Don't waste another moment and find the deployed site below!!
+                </p>
+              </article>
+              <a href="https://github.com/rpoole444/ArtistArchive-FE" target="_blank" rel="noreferrer">
+                <button className="proj-buttons">Repo</button>
+              </a>
+              <a href="https://artist-archive-fe.herokuapp.com/" target="_blank" rel="noreferrer">
                 <button className="proj-buttons">Visit Site</button>
               </a>
             </section>
