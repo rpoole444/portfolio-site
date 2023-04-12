@@ -54,8 +54,11 @@ const Homepage = () => {
                 Grant Guru  is an application that allows a user to explore a database full of Scholarship and grant applications to Help students find fincial aid with ease!  Upon submition of the form, queries are sent to our backend where they filter the array of scholarships to fit the parameters and send us the filtered scholarships.A user is able to add and delete scholarships to and from their saved window. The app incorporates a responsive layout and will change its structure to fit both large and mobile displays. 
                 </p>
               </article>
-              <a href="https://github.com/jheidepriem/fitLit-tracker" target="_blank" rel="noreferrer">
+              <a href="https://github.com/grant-guru/grant-guru-fe" target="_blank" rel="noreferrer">
                 <button className="proj-buttons">Repo</button>
+              </a>
+              <a href="https://grant-guru-fe.vercel.app/" target="_blank" rel="noreferrer">
+                <button className="proj-buttons">Visit Site</button>
               </a>
             </section>
           </section>
