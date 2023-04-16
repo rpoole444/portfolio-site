@@ -6,8 +6,8 @@ import pictureReid from "../assets/TrumpetReid2.jpg"
 const Homepage = () => {
  
   return (
-    <main className="homepage">
-      <h1 className="homepage-title">Welcome To Reid Poole's Portfolio</h1>
+    <main className="homepage" id="home">
+      <h1 className="homepage-title" >Welcome To Reid Poole's Portfolio</h1>
       <article className="introduction-container">
         
         <h2 className="intro">

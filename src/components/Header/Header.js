@@ -9,9 +9,9 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <header>
-        <NavLink to="/" >
+        <a href="#home" >
           <img src={logo} alt="computer" className="logo" />
-        </NavLink>
+        </a>
       <div className="list-container">
         <a href="#aboutMe">
           <button className="button">About Me</button>
