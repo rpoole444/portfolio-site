@@ -1,7 +1,7 @@
 import React from "react";
 import "./Homepage.css";
 import computer from "../assets/computer.png"
-import trumpet from "../assets/trumpet.png"
+import pictureReid from "../assets/TrumpetReid2.jpg"
 
 const Homepage = () => {
  
@@ -12,19 +12,21 @@ const Homepage = () => {
         <h2 className="intro-title">Thanks for dropping by!</h2>
         <p className="intro">Allow Me to Introduce myself!</p>
         <p className="intro">I'm Reid Poole 👋</p>
-        <p className="intro">
+        <article className="intro">
           This site is dedicated to my work as a Software Engineer and
           Developer!
-        </p>
+        </article>
         <section className="images-container">
-          <img className="computer-icon" src={computer} alt="computer" />
-          <img className="computer-icon" src={trumpet} alt="trumpet" />
+          {/* <img className="computer-icon" src={computer} alt="computer" /> */}
+          <img className="computer-icon" src={pictureReid} alt="trumpet" />
         </section>
-        <p className="intro">Additionally, I am a conservatory trained and professional New Orleans Musician</p> 
-        <p className="intro">I am a passionate Educator and Life Long Learner</p> 
-        <p className="intro">I am a runner, a joker, and a brewery and bbq tourist</p>
-        <p className="intro">Most importantly, I am a proud husband and father of 2!</p>
-        <p className="intro">...Come on in!</p>
+        <article className="intro">
+        Additionally, I am a conservatory trained and professional New Orleans Musician.
+        I am a passionate Educator and Life Long Learner.
+        I am a runner, a joker, and a brewery and bbq tourist.
+        Most importantly, I am a proud husband and father of 2!
+        ...Come on in!
+        </article>
       </article>
 
 
@@ -32,15 +34,26 @@ const Homepage = () => {
         <article className="read-about">
           <h3>Software Development Experience</h3>
           <p className="about-me-text">
-            My expertise lies within Javascript, React.js, Router, HTML, and CSS. I also have Backend experience with building full-stack apps using Express.js, Knex.js, and PostgreSQL.
+            I am a versatile software developer with a strong foundation in JavaScript, React.js, Router, HTML, and CSS. My backend expertise lies in building full-stack applications using Express.js, Knex.js, and PostgreSQL, enabling me to create seamless web experiences.
           </p>
-          <p className="about-me-text">I am a through-and-through musician that has a deep connection and experience in music. I've been performing full-time in New Orleans as well as on national and international tours for the past 13 years. I relate the language of music to code in many substantial ways that carry over very easily and intuitively. 
+          <p className="about-me-text">
+          What sets me apart is my deep connection to music and its language, which I seamlessly relate to code. As a professional musician with 13 years of full-time performance experience in New Orleans and on national and international tours, I have honed my intuition and creativity, allowing me to approach software development from a unique perspective.
           </p>
-          <p className="about-me-text">I am an Educator that has taught for more than 15 years to a spectrum of ages, from middle school to high school, and private lesson studios, but I'd like to highlight my experience in Higher Education as a professor of Music Industry at Dillard University. 
+          <p className="about-me-text">
+           I am also a passionate educator with over 15 years of teaching experience, spanning middle school to higher education. My work as a professor of the Music Industry at Dillard University demonstrates my dedication to sharing knowledge and inspiring the next generation.
           </p>
-          <p className="about-me-text">Finally, I'd like to share that I have experience in Tech and Software from being a digital archivist for the Louis Armstrong House Museum, based in Queens, NY, helping to develop the rich history of Louis Armstrong for easy user and fan access online. I'm especially proud of this because it includes my three passions of Software Development, Music, and Education!
+          <p className="about-me-text">
+            One of my proudest achievements combines my three passions—software development, music, and education—through my role as a digital archivist for the Louis Armstrong House Museum in Queens, NY. I had the privilege of helping to develop an accessible online platform for fans and users to explore the rich history of Louis Armstrong.
           </p>
-          <p className="about-me-text link">Check out the Louis Armstrong House Museum Digital Collection here: <a href="https://collections.louisarmstronghouse.org/">LAHM</a></p>
+          <p className="about-me-text">
+            Check out the Louis Armstrong House Museum Digital Collection here: <a className="link" href="https://collections.louisarmstronghouse.org/">LAHM</a>
+          </p>
+          <p className="about-me-text">
+            On a personal note, I am an avid runner, a witty jokester, and a devoted enthusiast of breweries and BBQ joints. Above all, I am a loving husband and proud father of two beautiful children.
+          </p>
+          <p className="about-me-text">
+            My unique background and love for music, education, and technology enable me to approach software development with empathy, creativity, and a deep understanding of human connection, making me a valuable addition to any team.
+          </p>
         </article>
       </section>
       <section id="work" className="work-container">

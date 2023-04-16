@@ -24,6 +24,9 @@ header{
   border: 2px solid black;
   align-items: center;
   justify-content: space-around;
+  -webkit-box-shadow: 10px 14px 33px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 14px 33px 1px rgba(0,0,0,0.75);
+  box-shadow: 10px 14px 33px 1px rgba(0,0,0,0.75);
 }
 .logo-side{
   height: 5vh;
