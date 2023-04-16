@@ -1,6 +1,6 @@
 import React from "react";
 import "./Homepage.css";
-import computer from "../assets/computer.png"
+import ReidBeach from "../assets/ReidBeach.jpg"
 import pictureReid from "../assets/TrumpetReid2.jpg"
 
 const Homepage = () => {
@@ -9,26 +9,16 @@ const Homepage = () => {
     <main className="homepage">
       <h1 className="homepage-title">Welcome To Reid Poole's Portfolio</h1>
       <article className="introduction-container">
-        <p className="intro-title">Allow Me to Introduce myself!</p>
-        <p className="intro">I'm Reid Poole 👋</p>
-        <article className="intro">
+        
+        <h2 className="intro">
           This site is dedicated to my work as a Software Engineer and
           Developer!
-        </article>
+        </h2>
         <section className="images-container">
-          {/* <img className="computer-icon" src={computer} alt="computer" /> */}
+          <img className="computer-icon" src={ReidBeach} alt="computer" />
           <img className="computer-icon" src={pictureReid} alt="trumpet" />
         </section>
-        <article className="intro">
-        Additionally, I am a conservatory trained and professional New Orleans Musician.
-        I am a passionate Educator and Life Long Learner.
-        I am a runner, a joker, and a brewery and bbq tourist.
-        Most importantly, I am a proud husband and father of 2!
-        ...Come on in!
-        </article>
       </article>
-
-
       <section id="aboutMe" className="about-me">
         <article className="read-about">
           <h3>Software Development Experience</h3>
@@ -56,6 +46,7 @@ const Homepage = () => {
         </article>
       </section>
       <section id="work" className="work-container">
+        <h2>Personal and Professional Projects</h2>
         <section className="project-container">
           <h2 className="proj-title">Grant Guru</h2>
           <section className="project-info">

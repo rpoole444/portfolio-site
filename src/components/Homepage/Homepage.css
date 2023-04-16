@@ -26,7 +26,6 @@
   max-height: 175vh;
   width: 75vw;
   border: 2px solid black;
-  font-size: large;
   flex-direction: column;
   letter-spacing: 3px;
   background-color: rgba(0, 0, 0, 0.241);
@@ -39,7 +38,7 @@
 }
 
 .read-about h3{
-  padding-top: 3vh;
+  padding-top: 2vh;
   font-size: 6vh;
 }
 
@@ -66,13 +65,11 @@
 .homepage-title {
   color: rgb(16, 9, 2);
   font-size: 5vh;
-  margin-top: 12%;
-
+  margin-top: 7%;
 }
 
 .intro {
   color: snow;
-  font-size: 3vh;
   margin: 1.7vh;
   letter-spacing:normal;
   line-height: 2;
@@ -83,36 +80,41 @@
   color: rgb(210, 197, 197);
 }
 
+.about-me{
+  margin-bottom: 4vh;
+}
+
 .about-me-text{
-  margin: 1.7vh;
+  padding: 0 4vw 0 4vw;
+  margin: 1.5vh;
   color: snow;
-  font-size: 3vh;
   letter-spacing:normal;
   line-height: 2;
 }
-
-
-.work-container{
+.introduction-container h2{
+  color: rgb(193, 193, 193);
+}
+.work-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 100vw;
-  height: 275vh;
-  margin-top: 10vh;
+  width: 100%;
+  padding-bottom: 5rem;
 }
 
-.project-container{
+.project-container {
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.241);
   border: 2px solid black;
-  height: 50vh;
-  width: 85vw;
+  width: 85%;
+  padding: 2rem;
   border-radius: 20px;
   -webkit-box-shadow: 10px 14px 33px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 14px 33px 1px rgba(0,0,0,0.75);
   box-shadow: 10px 14px 33px 1px rgba(0,0,0,0.75);
+  margin-bottom: 2rem;
 }
 
 .proj-description{
@@ -126,16 +128,21 @@
   align-items: center;
 }
 
-.images-container{
+.images-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 80vh;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1rem;
 }
 
 .computer-icon{
-  height: 50vh;
+  max-width: 30%;
+  max-height: 30%;
+  object-fit: cover;
+  border: 2px solid black;
 }
 
 .giphy-embed{
@@ -193,10 +200,9 @@
  justify-content: space-around;
 }
 
-.proj-buttons{
-  margin: 5vh;
-  height: 5vh;
-  width: 10vw;
+.proj-buttons {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 12px;
   background-color: rgba(255, 255, 255, 0.596);
   -webkit-box-shadow: 10px 14px 33px 1px rgba(0,0,0,0.75);
@@ -208,4 +214,93 @@
   letter-spacing: 1px;
   margin: 1vh;
   color: black;
+}
+
+/* --------------- */
+
+@media (max-width: 767px) {
+  .homepage-title {
+    font-size: 4vh;
+    margin-top: 25%;
+  }
+
+  .intro-title {
+  font-size: 4vh;
+  color: rgb(210, 197, 197);
+}
+
+.computer-icon{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border: 2px solid black;
+}
+.proj-description{
+  width: 50vw;
+}
+
+iframe{
+  margin-right: 7vw;
+  width: 50vw;
+}
+
+.proj-buttons{
+  display: flex;
+  flex-direction: column;
+
+}
+}
+@media (min-width: 768px) {
+  .logo {
+    height: 10vh;
+  }
+
+  .list-container {
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+
+  .homepage-title {
+    font-size: 6vh;
+    margin-top: 20%;
+  }
+
+  .intro-title {
+    font-size: 5vh;
+  }
+
+  .about-me-text, .intro {
+    font-size: 2.5vh;
+  }
+
+  .proj-title {
+    font-size: 3vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    height: 8vh;
+  }
+
+  .list-container {
+    padding: 0 4rem;
+  }
+
+  .homepage-title {
+    font-size: 7vh;
+    margin-top: 15%;
+  }
+
+  .intro-title {
+    font-size: 6vh;
+  }
+
+  .about-me-text, .intro {
+    font-size: 2.75vh;
+  }
+
+  .proj-title {
+    font-size: 3.5vh;
+  }
 }
