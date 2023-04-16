@@ -23,7 +23,7 @@
 .read-about{
   display: flex;
   justify-content: space-evenly;
-  max-height: 160vh;
+  max-height: 175vh;
   width: 75vw;
   border: 2px solid black;
   font-size: large;
@@ -45,7 +45,7 @@
 
 .introduction-container {
   display: flex;
-  max-height: 100vh;
+  max-height: 110vh;
   width: 75vw;
   border: 2px solid black;
   flex-direction: column;
@@ -73,7 +73,8 @@
   color: snow;
   font-size: 3vh;
   margin: 1.7vh;
-
+  letter-spacing:normal;
+  line-height: 2;
 }
 
 .intro-title {
