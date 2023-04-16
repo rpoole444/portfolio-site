@@ -1,6 +1,11 @@
 header{
   height: 17%;
-  background-color: rgba(0, 0, 0, 0.241);
+  background-color: rgba(142, 131, 131, 0.778);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .logo{
@@ -12,9 +17,7 @@ header{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 3px solid black;
-  
-}
+ }
 .logo-container{
   display: flex;
   width: 19vw;
