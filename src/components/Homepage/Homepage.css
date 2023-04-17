@@ -242,6 +242,9 @@ html {
   font-weight: 400;
   height: 36px;
   transition: all 150ms ease-in-out 0s;
+  -webkit-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
 }
 
 .proj-buttons:hover {
