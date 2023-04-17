@@ -95,20 +95,22 @@ const Homepage = () => {
                   to fit both large and mobile displays.
                 </p>
               </article>
-              <a
-                href="https://github.com/grant-guru/grant-guru-fe"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="proj-buttons">Repo</button>
-              </a>
-              <a
-                href="https://grant-guru-fe.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="proj-buttons">Visit Site</button>
-              </a>
+              <section className="proj-button-container">
+                <a
+                  href="https://github.com/grant-guru/grant-guru-fe"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Repo</button>
+                </a>
+                <a
+                  href="https://grant-guru-fe.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Visit Site</button>
+                </a>
+              </section>
             </section>
           </section>
         </section>
@@ -135,20 +137,22 @@ const Homepage = () => {
                   recommendation database.
                 </p>
               </article>
-              <a
-                href="https://github.com/rpoole444/shelf-life-FE"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="proj-buttons">Repo</button>
-              </a>
-              <a
-                href="https://shelf-life-k0fgat1zg-rpoole444.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="proj-buttons">Visit Site</button>
-              </a>
+              <section className="proj-button-container">
+                <a
+                  href="https://github.com/rpoole444/shelf-life-FE"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Repo</button>
+                </a>
+                <a
+                  href="https://shelf-life-k0fgat1zg-rpoole444.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Visit Site</button>
+                </a>
+              </section>
             </section>
           </section>
         </section>
@@ -170,20 +174,22 @@ const Homepage = () => {
                   date, budge, revenue, description, and their official trailer.
                 </p>
               </article>
-              <a
-                href="https://github.com/rpoole444/rancidTomatillos"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="proj-buttons">Repo</button>
-              </a>
-              <a
-                href="https://rancid-tomatillos-tau.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="proj-buttons">Visit Site</button>
-              </a>
+              <section className="proj-button-container">
+                <a
+                  href="https://github.com/rpoole444/rancidTomatillos"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Repo</button>
+                </a>
+                <a
+                  href="https://rancid-tomatillos-tau.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Visit Site</button>
+                </a>
+              </section>
             </section>
           </section>
         </section>
@@ -206,13 +212,15 @@ const Homepage = () => {
                   be updated with the new additional data included
                 </p>
               </article>
-              <a
-                href="https://github.com/jheidepriem/fitLit-tracker"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="proj-buttons">Repo</button>
-              </a>
+              <section className="proj-button-container">
+                <a
+                  href="https://github.com/jheidepriem/fitLit-tracker"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Repo</button>
+                </a>
+              </section>
             </section>
           </section>
         </section>
@@ -239,20 +247,22 @@ const Homepage = () => {
                   find the deployed site below!!
                 </p>
               </article>
-              <a
-                href="https://github.com/rpoole444/ArtistArchive-FE"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="proj-buttons">Repo</button>
-              </a>
-              <a
-                href="https://artist-archive-fe.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="proj-buttons">Visit Site</button>
-              </a>
+              <section className="proj-button-container">
+                <a
+                  href="https://github.com/rpoole444/ArtistArchive-FE"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Repo</button>
+                </a>
+                <a
+                  href="https://artist-archive-fe.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Visit Site</button>
+                </a>
+              </section>
             </section>
           </section>
         </section>
