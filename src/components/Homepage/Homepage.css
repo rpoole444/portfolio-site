@@ -1,7 +1,7 @@
 .homepage {
   display: flex;
   height: 100%;
-  width: 100vw;
+  width: 100%;
   background-size: auto;
   flex-direction: column;
   align-items: center;
@@ -225,17 +225,27 @@
   align-items: center;
   justify-content: space-evenly;
   background-color: rgba(0, 0, 0, 0.222);
-  overflow-y: scroll;
   border-radius: 20px;
+  overflow-y: auto;
+  overflow-x: auto;
   -webkit-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
-
+.skills-container::-webkit-scrollbar {
+  display: none;
+}
 .skill-icon {
   font-size: 25vh;
   height: 30vh;
   margin: 5vh;
+}
+
+.scroll-wrapper {
+  overflow: hidden;
+  max-height: 120vh;
 }
 
 .music-container {

@@ -259,17 +259,19 @@ const Homepage = () => {
       <h2 id="skills" className="technologies-title">
         Technologies
       </h2>
-      <section className="skills-container">
-        <i className="devicon-javascript-plain colored skill-icon"></i>
-        <i className="devicon-typescript-plain colored skill-icon"></i>
-        <i className="devicon-react-original-wordmark colored skill-icon"></i>
-        <i className="devicon-redux-plain colored skill-icon"></i>
-        <i className="devicon-html5-plain-wordmark colored skill-icon"></i>
-        <i className="devicon-css3-plain-wordmark colored skill-icon"></i>
-        <i className="devicon-express-original-wordmark skill-icon"></i>
-        <i className="devicon-postgresql-plain-wordmark skill-icon"></i>
-        <i className="devicon-nodejs-plain colored skill-icon"></i>
-      </section>
+      <div class="scroll-wrapper">
+        <section className="skills-container">
+          <i className="devicon-javascript-plain colored skill-icon"></i>
+          <i className="devicon-typescript-plain colored skill-icon"></i>
+          <i className="devicon-react-original-wordmark colored skill-icon"></i>
+          <i className="devicon-redux-plain colored skill-icon"></i>
+          <i className="devicon-html5-plain-wordmark colored skill-icon"></i>
+          <i className="devicon-css3-plain-wordmark colored skill-icon"></i>
+          <i className="devicon-express-original-wordmark skill-icon"></i>
+          <i className="devicon-postgresql-plain-wordmark skill-icon"></i>
+          <i className="devicon-nodejs-plain colored skill-icon"></i>
+        </section>
+      </div>
       <h2 id="music" className="technologies-title">
         Music
       </h2>
