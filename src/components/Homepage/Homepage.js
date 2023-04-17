@@ -259,7 +259,7 @@ const Homepage = () => {
       <h2 id="skills" className="technologies-title">
         Technologies
       </h2>
-      <div class="scroll-wrapper">
+      <div className="scroll-wrapper">
         <section className="skills-container">
           <i className="devicon-javascript-plain colored skill-icon"></i>
           <i className="devicon-typescript-plain colored skill-icon"></i>
@@ -275,84 +275,85 @@ const Homepage = () => {
       <h2 id="music" className="technologies-title">
         Music
       </h2>
-      <div class="scroll-wrapper">
-        <section className="music-container">
-          <article className="">
-            <h3>Music and Me ...</h3>
-            <p className="about-me-text">
-              Reid Poole, originally from Fountain, Colorado, has called New
-              Orleans home for over eight years. A versatile musician, Reid
-              leads several bands, including Dinosaurchestra, The Hi-Fi
-              Swingtet, the New Orleans Night Owls, and the Reid Poole Quintet.
-              When not fronting a band, Reid is a sought-after sideman for
-              numerous local acts such as the Panorama Brass Band, The New
-              Orleans Cottonmouth Kings, Trumpet Mafia, Big Fun Brass Band,
-              Fritzel's All-Stars, The Dukes, and The Essentials.
-            </p>
-            <p className="about-me-text">
-              With a proficiency in various styles, Reid moves seamlessly
-              between Blues, Traditional New Orleans Brass Band and Jazz, Swing,
-              Bebop, and more. He holds a Bachelor's degree in Music Education
-              and Jazz Performance from the University of Northern Colorado and
-              a Master's degree in Jazz and Contemporary Media from the Eastman
-              School of Music. During his final year at Eastman, Reid joined the
-              Glenn Miller Orchestra's trumpet section, touring across the US,
-              Japan, and Canada. Following the tour and completion of his
-              Master's degree, Reid settled in New Orleans, performing with
-              talented musicians at renowned venues like the Spotted Cat Music
-              Club, d.b.a., the Royal Frenchmen Hotel, Fritzel's, the Creole
-              Queen and the Natchez Paddleboats, and Snug Harbor.
-            </p>
-            <p className="about-me-text">
-              A firm believer in giving back, Reid teaches at the New Orleans
-              Jazz Orchestra Music Program (formerly the Irvin Mayfield School
-              of Music - “Jazz Ambassador’s Ensemble”), the Louisiana Academy
-              for Performing Arts (LAAPA), and Dillard University's Music
-              Industry Department. He also maintains a private lesson studio,
-              mentoring dedicated students of all ages.
-            </p>
-          </article>
-          <section className="music-website-container">
-            <a
-              href="https://www.reidpoole.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className="website-widget">Personal Music Website</button>
-            </a>
-            <a
-              href="https://www.dinosaurchestraneworleans.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <button className="website-widget">
-                DinosAurchestra's Website
-              </button>
-            </a>
-          </section>
-          <h3>Music Videos</h3>
-          <section className="music-video-container">
+
+      <section className="music-container">
+        <article className="">
+          <h3>Music and Me ...</h3>
+          <p className="about-me-text">
+            Reid Poole, originally from Fountain, Colorado, has called New
+            Orleans home for over eight years. A versatile musician, Reid leads
+            several bands, including Dinosaurchestra, The Hi-Fi Swingtet, the
+            New Orleans Night Owls, and the Reid Poole Quintet. When not
+            fronting a band, Reid is a sought-after sideman for numerous local
+            acts such as the Panorama Brass Band, The New Orleans Cottonmouth
+            Kings, Trumpet Mafia, Big Fun Brass Band, Fritzel's All-Stars, The
+            Dukes, and The Essentials.
+          </p>
+          <p className="about-me-text">
+            With a proficiency in various styles, Reid moves seamlessly between
+            Blues, Traditional New Orleans Brass Band and Jazz, Swing, Bebop,
+            and more. He holds a Bachelor's degree in Music Education and Jazz
+            Performance from the University of Northern Colorado and a Master's
+            degree in Jazz and Contemporary Media from the Eastman School of
+            Music. During his final year at Eastman, Reid joined the Glenn
+            Miller Orchestra's trumpet section, touring across the US, Japan,
+            and Canada. Following the tour and completion of his Master's
+            degree, Reid settled in New Orleans, performing with talented
+            musicians at renowned venues like the Spotted Cat Music Club,
+            d.b.a., the Royal Frenchmen Hotel, Fritzel's, the Creole Queen and
+            the Natchez Paddleboats, and Snug Harbor.
+          </p>
+          <p className="about-me-text">
+            A firm believer in giving back, Reid teaches at the New Orleans Jazz
+            Orchestra Music Program (formerly the Irvin Mayfield School of Music
+            - “Jazz Ambassador’s Ensemble”), the Louisiana Academy for
+            Performing Arts (LAAPA), and Dillard University's Music Industry
+            Department. He also maintains a private lesson studio, mentoring
+            dedicated students of all ages.
+          </p>
+        </article>
+        <section className="music-website-container">
+          <a href="https://www.reidpoole.com/" target="_blank" rel="noreferrer">
+            <button className="website-widget">Personal Music Website</button>
+          </a>
+          <a
+            href="https://www.dinosaurchestraneworleans.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="website-widget">
+              DinosAurchestra's Website
+            </button>
+          </a>
+        </section>
+        <h3>Music Videos</h3>
+        <section className="music-video-container">
+          <div className="video-wrapper music-videos">
             <div
-              className="fb-video music-videos"
+              className="fb-video"
               data-href="https://www.facebook.com/DinosaurchestraMusic/videos/2592232031030345/"
               data-width="420"
               data-show-text="false"
             ></div>
+          </div>
+          <div className="video-wrapper music-videos">
             <div
-              className="fb-video music-videos"
+              className="fb-video"
               data-href="https://www.facebook.com/DinosaurchestraMusic/videos/3175890235970230/"
               data-width="420"
               data-show-text="false"
             ></div>
+          </div>
+          <div className="video-wrapper music-videos">
             <div
-              className="fb-video music-videos"
+              className="fb-video"
               data-href="https://www.facebook.com/DinosaurchestraMusic/videos/234786244291217/"
               data-width="420"
               data-show-text="false"
             ></div>
-          </section>
+          </div>
         </section>
-      </div>
+      </section>
       <section className="contact-container"></section>
     </main>
   );
