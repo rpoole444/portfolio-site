@@ -2,6 +2,7 @@ import React from "react";
 import "./Homepage.css";
 import ReidBeach from "../assets/ReidBeach.jpg";
 import pictureReid from "../assets/TrumpetReid2.jpg";
+import ContactForm from "../ContactForm/ContactForm";
 
 const Homepage = () => {
   return (
@@ -354,7 +355,9 @@ const Homepage = () => {
           </div>
         </section>
       </section>
-      <section className="contact-container"></section>
+      <section className="contact-container">
+        <ContactForm />
+      </section>
     </main>
   );
 };
