@@ -1,15 +1,13 @@
 import React from "react";
 import "./Homepage.css";
-import ReidBeach from "../assets/ReidBeach.jpg"
-import pictureReid from "../assets/TrumpetReid2.jpg"
+import ReidBeach from "../assets/ReidBeach.jpg";
+import pictureReid from "../assets/TrumpetReid2.jpg";
 
 const Homepage = () => {
- 
   return (
     <main className="homepage" id="home">
-      <h1 className="homepage-title" >Welcome To Reid Poole's Portfolio</h1>
+      <h1 className="homepage-title">Welcome To Reid Poole's Portfolio</h1>
       <article className="introduction-container">
-        
         <h2 className="intro">
           This site is dedicated to my work as a Software Engineer and
           Developer!
@@ -23,25 +21,52 @@ const Homepage = () => {
         <article className="read-about">
           <h3>Software Development Experience</h3>
           <p className="about-me-text">
-            I am a versatile software developer with a strong foundation in JavaScript, React.js, Router, HTML, and CSS. My backend expertise lies in building full-stack applications using Express.js, Knex.js, and PostgreSQL, enabling me to create seamless web experiences.
+            I am a versatile software developer with a strong foundation in
+            JavaScript, React.js, Router, HTML, and CSS. My backend expertise
+            lies in building full-stack applications using Express.js, Knex.js,
+            and PostgreSQL, enabling me to create seamless web experiences.
           </p>
           <p className="about-me-text">
-          What sets me apart is my deep connection to music and its language, which I seamlessly relate to code. As a professional musician with 13 years of full-time performance experience in New Orleans and on national and international tours, I have honed my intuition and creativity, allowing me to approach software development from a unique perspective.
+            What sets me apart is my deep connection to music and its language,
+            which I seamlessly relate to code. As a professional musician with
+            13 years of full-time performance experience in New Orleans and on
+            national and international tours, I have honed my intuition and
+            creativity, allowing me to approach software development from a
+            unique perspective.
           </p>
           <p className="about-me-text">
-           I am also a passionate educator with over 15 years of teaching experience, spanning middle school to higher education. My work as a professor of the Music Industry at Dillard University demonstrates my dedication to sharing knowledge and inspiring the next generation.
+            I am also a passionate educator with over 15 years of teaching
+            experience, spanning middle school to higher education. My work as a
+            professor of the Music Industry at Dillard University demonstrates
+            my dedication to sharing knowledge and inspiring the next
+            generation.
           </p>
           <p className="about-me-text">
-            One of my proudest achievements combines my three passions—software development, music, and education—through my role as a digital archivist for the Louis Armstrong House Museum in Queens, NY. I had the privilege of helping to develop an accessible online platform for fans and users to explore the rich history of Louis Armstrong.
+            One of my proudest achievements combines my three passions—software
+            development, music, and education—through my role as a digital
+            archivist for the Louis Armstrong House Museum in Queens, NY. I had
+            the privilege of helping to develop an accessible online platform
+            for fans and users to explore the rich history of Louis Armstrong.
           </p>
           <p className="about-me-text">
-            Check out the Louis Armstrong House Museum Digital Collection here: <a className="link" href="https://collections.louisarmstronghouse.org/">LAHM</a>
+            Check out the Louis Armstrong House Museum Digital Collection here:{" "}
+            <a
+              className="link"
+              href="https://collections.louisarmstronghouse.org/"
+            >
+              LAHM
+            </a>
           </p>
           <p className="about-me-text">
-            On a personal note, I am an avid runner, a witty jokester, and a devoted enthusiast of breweries and BBQ joints. Above all, I am a loving husband and proud father of two beautiful children.
+            On a personal note, I am an avid runner, a witty jokester, and a
+            devoted enthusiast of breweries and BBQ joints. Above all, I am a
+            loving husband and proud father of two beautiful children.
           </p>
           <p className="about-me-text">
-            My unique background and love for music, education, and technology enable me to approach software development with empathy, creativity, and a deep understanding of human connection, making me a valuable addition to any team.
+            My unique background and love for music, education, and technology
+            enable me to approach software development with empathy, creativity,
+            and a deep understanding of human connection, making me a valuable
+            addition to any team.
           </p>
         </article>
       </section>
@@ -50,17 +75,37 @@ const Homepage = () => {
         <section className="project-container">
           <h2 className="proj-title">Grant Guru</h2>
           <section className="project-info">
-            <iframe  title="grantGuru" frameBorder="0" className="giphy-embed grant-guru"></iframe>
+            <iframe
+              title="grantGuru"
+              frameBorder="0"
+              className="giphy-embed grant-guru"
+            ></iframe>
             <section>
               <article className="proj-description">
                 <p className="description-text">
-                Grant Guru  is an application that allows a user to explore a database full of Scholarship and grant applications to Help students find fincial aid with ease!  Upon submition of the form, queries are sent to our backend where they filter the array of scholarships to fit the parameters and send us the filtered scholarships.A user is able to add and delete scholarships to and from their saved window. The app incorporates a responsive layout and will change its structure to fit both large and mobile displays. 
+                  Grant Guru is an application that allows a user to explore a
+                  database full of Scholarship and grant applications to Help
+                  students find fincial aid with ease! Upon submition of the
+                  form, queries are sent to our backend where they filter the
+                  array of scholarships to fit the parameters and send us the
+                  filtered scholarships.A user is able to add and delete
+                  scholarships to and from their saved window. The app
+                  incorporates a responsive layout and will change its structure
+                  to fit both large and mobile displays.
                 </p>
               </article>
-              <a href="https://github.com/grant-guru/grant-guru-fe" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/grant-guru/grant-guru-fe"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="proj-buttons">Repo</button>
               </a>
-              <a href="https://grant-guru-fe.vercel.app/" target="_blank" rel="noreferrer">
+              <a
+                href="https://grant-guru-fe.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="proj-buttons">Visit Site</button>
               </a>
             </section>
@@ -69,17 +114,38 @@ const Homepage = () => {
         <section className="project-container">
           <h2 className="proj-title">Shelf Life</h2>
           <section className="project-info">
-            <iframe src="https://giphy.com/embed/yKym67WoKt3AIQ38UH"  title="shelfLife" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+            <iframe
+              src="https://giphy.com/embed/yKym67WoKt3AIQ38UH"
+              title="shelfLife"
+              frameBorder="0"
+              className="giphy-embed"
+              allowFullScreen
+            ></iframe>
             <section>
               <article className="proj-description">
                 <p className="description-text">
-                  Do you have a hard time picking out the right book to read? Well look no further, Shelf Life is here to help! This App is a book recomendation app where you are able to look at a database of books referred by the Creators and add the book to your favorites based on your interest and the recomendation! Further more, you are able to search the New York Times top 100 best sellers and add your recommendation to the recommendation database.
+                  Do you have a hard time picking out the right book to read?
+                  Well look no further, Shelf Life is here to help! This App is
+                  a book recomendation app where you are able to look at a
+                  database of books referred by the Creators and add the book to
+                  your favorites based on your interest and the recomendation!
+                  Further more, you are able to search the New York Times top
+                  100 best sellers and add your recommendation to the
+                  recommendation database.
                 </p>
               </article>
-              <a href="https://github.com/rpoole444/shelf-life-FE" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/rpoole444/shelf-life-FE"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="proj-buttons">Repo</button>
               </a>
-              <a href="https://shelf-life-k0fgat1zg-rpoole444.vercel.app/" target="_blank" rel="noreferrer">
+              <a
+                href="https://shelf-life-k0fgat1zg-rpoole444.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="proj-buttons">Visit Site</button>
               </a>
             </section>
@@ -88,17 +154,33 @@ const Homepage = () => {
         <section className="project-container">
           <h2 className="proj-title">Ceaseless Cinemas</h2>
           <section className="project-info">
-            <iframe title="ceaselessCinema" frameBorder="0" className="giphy-embed ceaseless-cinema" allowFullScreen></iframe>
+            <iframe
+              title="ceaselessCinema"
+              frameBorder="0"
+              className="giphy-embed ceaseless-cinema"
+              allowFullScreen
+            ></iframe>
             <section>
               <article className="proj-description">
                 <p className="description-text">
-                If you're interested in the latest films, Ceaseless Cinema is here for you! You can search through all of the films and find their trailers and film details such as, runtime, release date, budge, revenue, description, and their official trailer.
+                  If you're interested in the latest films, Ceaseless Cinema is
+                  here for you! You can search through all of the films and find
+                  their trailers and film details such as, runtime, release
+                  date, budge, revenue, description, and their official trailer.
                 </p>
               </article>
-              <a href="https://github.com/rpoole444/rancidTomatillos" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/rpoole444/rancidTomatillos"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="proj-buttons">Repo</button>
               </a>
-              <a href="https://rancid-tomatillos-tau.vercel.app/" target="_blank" rel="noreferrer">
+              <a
+                href="https://rancid-tomatillos-tau.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="proj-buttons">Visit Site</button>
               </a>
             </section>
@@ -107,14 +189,27 @@ const Homepage = () => {
         <section className="project-container">
           <h2 className="proj-title">Fit Lit</h2>
           <section className="project-info">
-            <iframe title="fitLit" frameBorder="0" className="giphy-embed fit-lit"></iframe>
+            <iframe
+              title="fitLit"
+              frameBorder="0"
+              className="giphy-embed fit-lit"
+            ></iframe>
             <section>
               <article className="proj-description">
                 <p className="description-text">
-                The purpose of our app, Fit Lit, is to store and display a user's data, such as sleep, hydration, and activity (think steps) for the latest day and week including comparisons to the average of all users for each topic. The user is able to add their own data for a given date and all of the data will be updated with the new additional data included
+                  The purpose of our app, Fit Lit, is to store and display a
+                  user's data, such as sleep, hydration, and activity (think
+                  steps) for the latest day and week including comparisons to
+                  the average of all users for each topic. The user is able to
+                  add their own data for a given date and all of the data will
+                  be updated with the new additional data included
                 </p>
               </article>
-              <a href="https://github.com/jheidepriem/fitLit-tracker" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/jheidepriem/fitLit-tracker"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="proj-buttons">Repo</button>
               </a>
             </section>
@@ -123,23 +218,134 @@ const Homepage = () => {
         <section className="project-container">
           <h2 className="proj-title">Artist Archive</h2>
           <section className="project-info">
-            <iframe title="artistArchive" frameBorder="0" className="giphy-embed artist-archive" allowFullScreen></iframe>
+            <iframe
+              title="artistArchive"
+              frameBorder="0"
+              className="giphy-embed artist-archive"
+              allowFullScreen
+            ></iframe>
             <section className="description-buttons">
               <article className="proj-description">
                 <p className="description-text">
-                  Artist Archive aims to inspire the uninspired ear! This fullstack app contains a special collection of Incredible musical artists from many differing genres. Look through the Archive and find new and exciting music artists! Each artist's click takes you to a description and an inspiring music video of the Artist. But wait, if a user finds an artist that resonates with them, you can collect your favorites into private favorites collections! Don't waste another moment and find the deployed site below!!
+                  Artist Archive aims to inspire the uninspired ear! This
+                  fullstack app contains a special collection of Incredible
+                  musical artists from many differing genres. Look through the
+                  Archive and find new and exciting music artists! Each artist's
+                  click takes you to a description and an inspiring music video
+                  of the Artist. But wait, if a user finds an artist that
+                  resonates with them, you can collect your favorites into
+                  private favorites collections! Don't waste another moment and
+                  find the deployed site below!!
                 </p>
               </article>
-              <a href="https://github.com/rpoole444/ArtistArchive-FE" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/rpoole444/ArtistArchive-FE"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="proj-buttons">Repo</button>
               </a>
-              <a href="https://artist-archive-fe.herokuapp.com/" target="_blank" rel="noreferrer">
+              <a
+                href="https://artist-archive-fe.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="proj-buttons">Visit Site</button>
               </a>
             </section>
           </section>
         </section>
       </section>
+      <h2 id="skills" className="technologies-title">
+        Technologies
+      </h2>
+      <section className="skills-container">
+        <i className="devicon-javascript-plain colored skill-icon"></i>
+        <i className="devicon-typescript-plain colored skill-icon"></i>
+        <i className="devicon-react-original-wordmark colored skill-icon"></i>
+        <i className="devicon-redux-plain colored skill-icon"></i>
+        <i className="devicon-html5-plain-wordmark colored skill-icon"></i>
+        <i className="devicon-css3-plain-wordmark colored skill-icon"></i>
+        <i className="devicon-express-original-wordmark skill-icon"></i>
+        <i className="devicon-postgresql-plain-wordmark skill-icon"></i>
+        <i className="devicon-nodejs-plain colored skill-icon"></i>
+      </section>
+      <h2 id="music" className="technologies-title">
+        Music
+      </h2>
+      <section className="music-container">
+        <article className="">
+          <h3>Music and Me ...</h3>
+          <p className="about-me-text">
+            Reid Poole, originally from Fountain, Colorado, has called New
+            Orleans home for over eight years. A versatile musician, Reid leads
+            several bands, including Dinosaurchestra, The Hi-Fi Swingtet, the
+            New Orleans Night Owls, and the Reid Poole Quintet. When not
+            fronting a band, Reid is a sought-after sideman for numerous local
+            acts such as the Panorama Brass Band, The New Orleans Cottonmouth
+            Kings, Trumpet Mafia, Big Fun Brass Band, Fritzel's All-Stars, The
+            Dukes, and The Essentials.
+          </p>
+          <p className="about-me-text">
+            With a proficiency in various styles, Reid moves seamlessly between
+            Blues, Traditional New Orleans Brass Band and Jazz, Swing, Bebop,
+            and more. He holds a Bachelor's degree in Music Education and Jazz
+            Performance from the University of Northern Colorado and a Master's
+            degree in Jazz and Contemporary Media from the Eastman School of
+            Music. During his final year at Eastman, Reid joined the Glenn
+            Miller Orchestra's trumpet section, touring across the US, Japan,
+            and Canada. Following the tour and completion of his Master's
+            degree, Reid settled in New Orleans, performing with talented
+            musicians at renowned venues like the Spotted Cat Music Club,
+            d.b.a., the Royal Frenchmen Hotel, Fritzel's, the Creole Queen and
+            the Natchez Paddleboats, and Snug Harbor.
+          </p>
+          <p className="about-me-text">
+            A firm believer in giving back, Reid teaches at the New Orleans Jazz
+            Orchestra Music Program (formerly the Irvin Mayfield School of Music
+            - “Jazz Ambassador’s Ensemble”), the Louisiana Academy for
+            Performing Arts (LAAPA), and Dillard University's Music Industry
+            Department. He also maintains a private lesson studio, mentoring
+            dedicated students of all ages.
+          </p>
+        </article>
+        <section className="music-website-container">
+          <a href="https://www.reidpoole.com/" target="_blank" rel="noreferrer">
+            <button className="website-widget">Personal Music Website</button>
+          </a>
+          <a
+            href="https://www.dinosaurchestraneworleans.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="website-widget">
+              DinosAurchestra's Website
+            </button>
+          </a>
+        </section>
+        <h3>Music Videos</h3>
+        <section className="music-video-container">
+          <div
+            className="fb-video music-videos"
+            data-href="https://www.facebook.com/DinosaurchestraMusic/videos/2592232031030345/"
+            data-width="420"
+            data-show-text="false"
+          ></div>
+          <div
+            className="fb-video music-videos"
+            data-href="https://www.facebook.com/DinosaurchestraMusic/videos/3175890235970230/"
+            data-width="420"
+            data-show-text="false"
+          ></div>
+          <div
+            className="fb-video music-videos"
+            data-href="https://www.facebook.com/DinosaurchestraMusic/videos/234786244291217/"
+            data-width="420"
+            data-show-text="false"
+          ></div>
+        </section>
+      </section>
+      <section className="contact-container"></section>
     </main>
   );
 };
