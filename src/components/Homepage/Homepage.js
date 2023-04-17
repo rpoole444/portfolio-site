@@ -10,8 +10,7 @@ const Homepage = () => {
       <h1 className="homepage-title">Welcome To Reid Poole's Portfolio</h1>
       <article className="introduction-container">
         <h2 className="intro">
-          This site is dedicated to my work as a Software Engineer and
-          Developer!
+          My site is dedicated to my work as a Software Engineer and Developer!
         </h2>
         <section className="images-container">
           <img className="computer-icon" src={ReidBeach} alt="computer" />
