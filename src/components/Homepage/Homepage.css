@@ -195,11 +195,30 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+.fiction-fountain {
+  height: 35vh;
+  width: 37vw;
+  overflow: hidden;
+  background-image: url("https://user-images.githubusercontent.com/111818942/233493060-17a69326-c2ca-4121-a0bf-34d2f0970b59.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .fit-lit {
   height: 35vh;
   width: 37vw;
   overflow: hidden;
   background-image: url("../assets/gitLitGif1.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nyt-top-stories {
+  height: 35vh;
+  width: 37vw;
+  overflow: hidden;
+  background-image: url("https://user-images.githubusercontent.com/111818942/233413256-42c6456f-d1f3-4598-adc1-a14d7ebf30c4.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -258,6 +277,11 @@ html {
   letter-spacing: 1px;
   margin: 1vh;
   color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
 }
 
 .skills-container {

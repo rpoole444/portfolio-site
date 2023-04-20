@@ -114,6 +114,49 @@ const Homepage = () => {
           </section>
         </section>
         <section className="project-container">
+          <h2 className="proj-title">Fiction Fountain</h2>
+          <section className="project-info">
+            <iframe
+              title="fictionFountain"
+              frameBorder="0"
+              className="giphy-embed fiction-fountain"
+            ></iframe>
+            <section>
+              <article className="proj-description">
+                <p className="description-text">
+                  Fiction Fountain is an application that allows a user to
+                  generate a bedtime of story-time Story based on a prompt
+                  directed to the Openai Chatbot, additionally users are able to
+                  generated a picture! On load you can choose to generate a
+                  story or a picture, and then you are taken to a page with an
+                  input where you can add a prompt for the bot to generate a
+                  story. Upon submition of the prompt you are taken to a screen
+                  to view the generated story or image. The app incorporates a
+                  responsive layout and will change its structure to fit both
+                  large and mobile displays. It was built using functional React
+                  Hooks, Typescript, controlled form pattern, React Router.
+                </p>
+              </article>
+              <section className="proj-button-container">
+                <a
+                  href="https://github.com/rpoole444/fiction-fountain-fe"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Repo</button>
+                </a>
+                <a
+                  href="https://fiction-fountain-fe.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Visit Site</button>
+                </a>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section className="project-container">
           <h2 className="proj-title">Shelf Life</h2>
           <section className="project-info">
             <iframe
@@ -193,31 +236,45 @@ const Homepage = () => {
           </section>
         </section>
         <section className="project-container">
-          <h2 className="proj-title">Fit Lit</h2>
+          <h2 className="proj-title">NYT Top Stories</h2>
           <section className="project-info">
             <iframe
-              title="fitLit"
+              title="NytTopStories"
               frameBorder="0"
-              className="giphy-embed fit-lit"
+              className="giphy-embed nyt-top-stories"
             ></iframe>
             <section>
               <article className="proj-description">
                 <p className="description-text">
-                  The purpose of our app, Fit Lit, is to store and display a
-                  user's data, such as sleep, hydration, and activity (think
-                  steps) for the latest day and week including comparisons to
-                  the average of all users for each topic. The user is able to
-                  add their own data for a given date and all of the data will
-                  be updated with the new additional data included
+                  New York Times Top Stories, is an application that allows a
+                  user to explore the New York Times daily Top Stories all in
+                  one application! Using the NYTs Top Stories API, On Load
+                  you'll be taken to the home page and the news will be set to
+                  the "Home" category, and you'll see all of the top stories
+                  from NYT's Home page. From there a user is able to scroll
+                  through the articles. A user is able to change the category
+                  and the news articles will switch to the relevant category.
+                  Additionally, form any category a user is able to filter
+                  through the titles of the news for keywords. The app
+                  incorporates a responsive layout and will change its structure
+                  to fit both large and mobile displays. It was built using
+                  functional React Hooks, Controlled form pattern, React Router.
                 </p>
               </article>
               <section className="proj-button-container">
                 <a
-                  href="https://github.com/jheidepriem/fitLit-tracker"
+                  href="https://github.com/rpoole444/fiction-fountain-fe"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button className="proj-buttons">Repo</button>
+                </a>
+                <a
+                  href="https://fiction-fountain-fe.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Visit Site</button>
                 </a>
               </section>
             </section>
@@ -260,6 +317,37 @@ const Homepage = () => {
                   rel="noreferrer"
                 >
                   <button className="proj-buttons">Visit Site</button>
+                </a>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section className="project-container">
+          <h2 className="proj-title">Fit Lit</h2>
+          <section className="project-info">
+            <iframe
+              title="fitLit"
+              frameBorder="0"
+              className="giphy-embed fit-lit"
+            ></iframe>
+            <section>
+              <article className="proj-description">
+                <p className="description-text">
+                  The purpose of our app, Fit Lit, is to store and display a
+                  user's data, such as sleep, hydration, and activity (think
+                  steps) for the latest day and week including comparisons to
+                  the average of all users for each topic. The user is able to
+                  add their own data for a given date and all of the data will
+                  be updated with the new additional data included
+                </p>
+              </article>
+              <section className="proj-button-container">
+                <a
+                  href="https://github.com/jheidepriem/fitLit-tracker"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Repo</button>
                 </a>
               </section>
             </section>
