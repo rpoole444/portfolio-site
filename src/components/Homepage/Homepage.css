@@ -195,6 +195,16 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.blissful-blends {
+  height: 35vh;
+  width: 37vw;
+  overflow: hidden;
+  background-image: url("../assets/blissful.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .fiction-fountain {
   height: 35vh;
   width: 37vw;
