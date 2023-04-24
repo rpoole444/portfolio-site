@@ -236,51 +236,6 @@ const Homepage = () => {
           </section>
         </section>
         <section className="project-container">
-          <h2 className="proj-title">NYT Top Stories</h2>
-          <section className="project-info">
-            <iframe
-              title="NytTopStories"
-              frameBorder="0"
-              className="giphy-embed nyt-top-stories"
-            ></iframe>
-            <section>
-              <article className="proj-description">
-                <p className="description-text">
-                  New York Times Top Stories, is an application that allows a
-                  user to explore the New York Times daily Top Stories all in
-                  one application! Using the NYTs Top Stories API, On Load
-                  you'll be taken to the home page and the news will be set to
-                  the "Home" category, and you'll see all of the top stories
-                  from NYT's Home page. From there a user is able to scroll
-                  through the articles. A user is able to change the category
-                  and the news articles will switch to the relevant category.
-                  Additionally, form any category a user is able to filter
-                  through the titles of the news for keywords. The app
-                  incorporates a responsive layout and will change its structure
-                  to fit both large and mobile displays. It was built using
-                  functional React Hooks, Controlled form pattern, React Router.
-                </p>
-              </article>
-              <section className="proj-button-container">
-                <a
-                  href="https://github.com/rpoole444/fiction-fountain-fe"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="proj-buttons">Repo</button>
-                </a>
-                <a
-                  href="https://fiction-fountain-fe.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="proj-buttons">Visit Site</button>
-                </a>
-              </section>
-            </section>
-          </section>
-        </section>
-        <section className="project-container">
           <h2 className="proj-title">Artist Archive</h2>
           <section className="project-info">
             <iframe
@@ -357,6 +312,51 @@ const Homepage = () => {
                 </a>
                 <a
                   href="https://blissful-blends.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Visit Site</button>
+                </a>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section className="project-container">
+          <h2 className="proj-title">NYT Top Stories</h2>
+          <section className="project-info">
+            <iframe
+              title="NytTopStories"
+              frameBorder="0"
+              className="giphy-embed nyt-top-stories"
+            ></iframe>
+            <section>
+              <article className="proj-description">
+                <p className="description-text">
+                  New York Times Top Stories, is an application that allows a
+                  user to explore the New York Times daily Top Stories all in
+                  one application! Using the NYTs Top Stories API, On Load
+                  you'll be taken to the home page and the news will be set to
+                  the "Home" category, and you'll see all of the top stories
+                  from NYT's Home page. From there a user is able to scroll
+                  through the articles. A user is able to change the category
+                  and the news articles will switch to the relevant category.
+                  Additionally, form any category a user is able to filter
+                  through the titles of the news for keywords. The app
+                  incorporates a responsive layout and will change its structure
+                  to fit both large and mobile displays. It was built using
+                  functional React Hooks, Controlled form pattern, React Router.
+                </p>
+              </article>
+              <section className="proj-button-container">
+                <a
+                  href="https://github.com/rpoole444/fiction-fountain-fe"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Repo</button>
+                </a>
+                <a
+                  href="https://fiction-fountain-fe.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
