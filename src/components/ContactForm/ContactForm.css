@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 35vw;
+  color: white;
+}
+
+#message {
+  height: 20vh;
+}
+
+input {
+  height: 3vh;
+}

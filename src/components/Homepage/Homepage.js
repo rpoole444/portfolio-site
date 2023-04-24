@@ -496,8 +496,8 @@ const Homepage = () => {
           </div>
         </section>
       </section>
-      <section className="contact-container">
-        <ContactForm />d
+      <section id="contact" className="contact-container">
+        <ContactForm />
       </section>
     </main>
   );
