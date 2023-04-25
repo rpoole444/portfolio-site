@@ -348,14 +348,14 @@ const Homepage = () => {
               </article>
               <section className="proj-button-container">
                 <a
-                  href="https://github.com/rpoole444/fiction-fountain-fe"
+                  href="https://github.com/rpoole444/nyt-top-stories"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <button className="proj-buttons">Repo</button>
                 </a>
                 <a
-                  href="https://fiction-fountain-fe.vercel.app/"
+                  href="https://nyt-top-stories.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
