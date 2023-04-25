@@ -37,9 +37,8 @@ const Homepage = () => {
           <p className="about-me-text">
             I am also a passionate educator with over 15 years of teaching
             experience, spanning middle school to higher education. My work as a
-            professor of the Music Industry at Dillard University demonstrates
-            my dedication to sharing knowledge and inspiring the next
-            generation.
+            professor of Music Industry at Dillard University demonstrates my
+            dedication to sharing knowledge and inspiring the next generation.
           </p>
           <p className="about-me-text">
             One of my proudest achievements combines my three passions—software
