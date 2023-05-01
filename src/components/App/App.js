@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../Header/Header";
 import Homepage from "../Homepage/Homepage";
-
-// import { Route}
+import LandingPage from "../LandingPage/LandingPage";
+import { Switch, Route } from "react-router-dom";
 import "./App.css";
 
 class App extends React.Component {
@@ -14,8 +14,19 @@ class App extends React.Component {
     return (
       <div className="App">
         {/* <img src={backgroundImage} /> */}
-        <Header />
-        <Homepage />
+        <Switch>
+          <Route exact path="/" component={LandingPage}></Route>
+          <Route
+            path="/main-page"
+            render={() => {
+              return;
+              <>
+                <Header />
+                <Homepage />
+              </>;
+            }}
+          ></Route>
+        </Switch>
       </div>
     );
   }
