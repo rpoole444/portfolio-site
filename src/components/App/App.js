@@ -17,13 +17,14 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={LandingPage}></Route>
           <Route
-            path="/main-page"
+            exact path="/main-page"
             render={() => {
-              return;
+              return(
               <>
                 <Header />
                 <Homepage />
-              </>;
+              </>
+              )
             }}
           ></Route>
         </Switch>

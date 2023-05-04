@@ -4,9 +4,15 @@ import logo2 from "../assets/insta.png";
 import logo3 from "../assets/github-mark.png";
 import logo4 from "../assets/linked.png";
 import trumpet1 from "../assets/TrumpetReid1.jpg";
-import Header from "../Header/Header";
+import { useHistory } from "react-router-dom";
+
 
 const LandingPage = () => {
+  const history = useHistory()
+
+  const handleClick = () => {
+    history.push('/main-page')
+  }
   return (
     <div className="entrance-container">
       <aside className="aside">
@@ -44,6 +50,10 @@ const LandingPage = () => {
         <section className="info-section">
           <h1 className="main-title"> Reid Poole - Software Engineer</h1>
           <h2 className="sub-main-title"> Musician | Educator | Father | Husband</h2>
+          <button class="full-rounded" onClick={() => handleClick()}>
+          <span>Enter Site</span>
+          <div class="border full-rounded"></div></button>
+         
         </section>
         <img className="reid-photo"src={trumpet1} alt="Reid Playing Trumpet" />
       </section>
