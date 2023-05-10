@@ -117,54 +117,190 @@
  border-radius: 2em;
 }
 
-@media screen and (max-width: 992px) {
- 
-  
-  .aside {
-    width: 25vw;
+/* iPads (landscape) */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (orientation: landscape) {
+    .logo-side {
+    height: 5vh;
   }
-  .icon-skillz-container {
-    width: 20vw;
-  }
+
   .skillz {
     font-size: 4vh;
-    margin: 1vh;
   }
-  .logo-side {
-    height: 5vh;
+
+  .entrance-container {
+    flex-direction: column;
+  }
+
+  .aside {
+    width: 100vw;
+    height: 20vh;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .social-logos, .icon-skillz-container {
+    margin: 2vh;
+    width: 20vw;
+    height: 18vh;
+  }
+
+  .main-section {
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .info-section {
+    width: 100vw;
+    height: 35vh;
+  }
+
+  .reid-photo {
+    height: 45vh;
   }
 }
 
-@media screen and (max-width: 768px) {
-  /* For small devices */
-  .aside {
-    width: 30vw;
+/* iPads (portrait) */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (orientation: portrait) {
+.logo-side {
+    height: 5vh;
   }
-  .icon-skillz-container {
-    width: 20vw;
-  }
+
   .skillz {
-    font-size: 3vh;
-    margin: 1vh;
+    font-size: 4vh;
   }
+
+  .entrance-container {
+    flex-direction: column;
+  }
+
+  .aside {
+    width: 100vw;
+    height: 20vh;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .social-logos, .icon-skillz-container {
+    width: 20vw;
+    height: 15vh;
+    margin: 2vh;
+  }
+
+  .main-section {
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .info-section {
+    width: 100vw;
+    height: 35vh;
+  }
+
+  .reid-photo {
+    height: 45vh;
+  }
+}
+
+/* iPhones and smaller devices (portrait) */
+@media only screen 
+  and (max-device-width: 767px)
+  and (orientation: portrait) {
+  .entrance-container {
+    flex-direction: column;
+  }
+
+  .aside {
+    width: 100vw;
+    height: 20vh;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .logo-side {
     height: 4vh;
   }
+
+  .skillz {
+    font-size: 3vh;
+  }
+
+  .social-logos, .icon-skillz-container {
+    width: 20vw;
+    height: 15vh;
+    margin: 2vh;
+  }
+.submit-button{
+  margin-bottom: 2vh;
+}
+  .main-section {
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .info-section {
+    width: 100vw;
+    height: 35vh;
+    margin-bottom: 2vh;
+  }
+
+  .reid-photo {
+    height: 45vh;
+  }
 }
 
-@media screen and (max-width: 576px) {
-  /* For extra small devices */
-  .aside {
-    width: 25vw;
+
+/* iPhones and smaller devices (landscape) */
+@media only screen 
+  and (max-device-width: 767px)
+  and (orientation: landscape) {
+    .logo-side {
+    height: 4vh;
   }
-  .icon-skillz-container {
-    width: 20vw;
-  }
+
   .skillz {
-    font-size: 2vh;
-    margin: 0.5vh;
+    font-size: 3vh;
   }
-  .logo-side {
-    height: 3vh;
+  
+  .entrance-container {
+    flex-direction: column;
+  }
+
+  .aside {
+    width: 100vw;
+    height: 20vh;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .social-logos, .icon-skillz-container {
+    width: 20vw;
+    height: 15vh;
+    margin: 2vh;
+  }
+
+  .main-section {
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .info-section {
+    width: 100vw;
+    height: 35vh;
+    margin-bottom: 2vh;
+  }
+
+  .reid-photo {
+    height: 45vh;
   }
 }
+
