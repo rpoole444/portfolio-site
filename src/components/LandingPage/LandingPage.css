@@ -76,7 +76,7 @@
   height: 60vh;
 }
 
-/* button {
+.submit-button {
  font-size: 16px;
  position: relative;
  margin: auto;
@@ -87,15 +87,15 @@
  box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
 }
 
-button:active {
+.submit-button:active {
  transform: scale(0.95);
 }
 
-button span {
+.submit-button span {
  color: #464646;
 }
 
-button .border {
+.submit-button .border {
  position: absolute;
  border: 0.15em solid #fff;
  transition: all 0.3s 0.08s linear;
@@ -106,7 +106,7 @@ button .border {
  transform: translate(-50%, -50%);
 }
 
-button:hover .border {
+.submit-button:hover .border {
  display: block;
  width: 9.9em;
  height: 3.7em;
@@ -115,7 +115,7 @@ button:hover .border {
 
 .full-rounded {
  border-radius: 2em;
-} */
+}
 
 @media screen and (max-width: 992px) {
  
