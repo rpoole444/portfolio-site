@@ -276,7 +276,7 @@ const Homepage = () => {
             </section>
           </section>
         </section>
-        <section className="project-container">
+        {/* <section className="project-container">
           <h2 className="proj-title">Blissful Blends</h2>
           <section className="project-info">
             <iframe
@@ -319,7 +319,7 @@ const Homepage = () => {
               </section>
             </section>
           </section>
-        </section>
+        </section> */}
         <section className="project-container">
           <h2 className="proj-title">NYT Top Stories</h2>
           <section className="project-info">
