@@ -276,50 +276,6 @@ const Homepage = () => {
             </section>
           </section>
         </section>
-        {/* <section className="project-container">
-          <h2 className="proj-title">Blissful Blends</h2>
-          <section className="project-info">
-            <iframe
-              title="fitLit"
-              frameBorder="0"
-              className="giphy-embed blissful-blends"
-            ></iframe>
-            <section>
-              <article className="proj-description">
-                <p className="description-text">
-                  Blissful Blends, is an application that allows a user to
-                  explore the array of different types of Cannabis Strains!
-                  Using the Weed Strains API, On Load you'll be taken to the
-                  home page where you are able to filter for sativa, indica, or
-                  hybrid strains, or if you prefer you can look through the
-                  entire library. After clicking a strain type the user is able
-                  to scroll through the Strains. Users are able to Save their
-                  strain favorites to their matching library, found in the
-                  header. The app incorporates a responsive layout and will
-                  change its structure to fit both large and mobile displays. It
-                  was built using functional React Hooks, Controlled form
-                  pattern, Typscript, and React Router.
-                </p>
-              </article>
-              <section className="proj-button-container">
-                <a
-                  href="https://github.com/rpoole444/blissful-blends"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="proj-buttons">Repo</button>
-                </a>
-                <a
-                  href="https://blissful-blends.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="proj-buttons">Visit Site</button>
-                </a>
-              </section>
-            </section>
-          </section>
-        </section> */}
         <section className="project-container">
           <h2 className="proj-title">NYT Top Stories</h2>
           <section className="project-info">
