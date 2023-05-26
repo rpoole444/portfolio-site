@@ -16,6 +16,13 @@ const Homepage = () => {
           <img className="computer-icon" src={ReidBeach} alt="computer" />
           <img className="computer-icon" src={pictureReid} alt="trumpet" />
         </section>
+          <a
+            href="https://docs.google.com/document/d/1_BI4wNwixRBp0fDo2d8urPAhEb04QGbMv5I2DEE6kAA/edit?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="proj-buttons">Take A Look at My Resume!</button>
+          </a>
       </article>
       <section id="aboutMe" className="about-me">
         <article className="read-about">
