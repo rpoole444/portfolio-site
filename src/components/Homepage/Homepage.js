@@ -2,6 +2,7 @@ import React from "react";
 import "./Homepage.css";
 import ReidBeach from "../assets/ReidBeach.jpg";
 import pictureReid from "../assets/TrumpetReid2.jpg";
+import reidBlows from  "/Users/reidpoole/portfolio_site/src/components/assets/Reid 3.JPG"
 import ContactForm from "../ContactForm/ContactForm";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAws } from '@fortawesome/free-brands-svg-icons'
@@ -19,7 +20,7 @@ const Homepage = () => {
         </h2>
         <section className="images-container">
           <img className="computer-icon" src={ReidBeach} alt="computer" />
-          <img className="computer-icon" src={pictureReid} alt="trumpet" />
+          <img className="computer-icon" src={reidBlows} alt="trumpet" />
         </section>
           <a
             href="https://docs.google.com/document/d/1CNteHIPiknUZhz6h1OpUYTilBPr_m1SUuJb5u3t1llo/edit?usp=sharing"
