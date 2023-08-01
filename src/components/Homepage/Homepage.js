@@ -2,7 +2,7 @@ import React from "react";
 import "./Homepage.css";
 import ReidBeach from "../assets/ReidBeach.jpg";
 import pictureReid from "../assets/TrumpetReid2.jpg";
-import reidBlows from  "/Users/reidpoole/portfolio_site/src/components/assets/Reid 3.JPG"
+import reidBlows from "../assets/Reid_3.JPG";
 import ContactForm from "../ContactForm/ContactForm";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAws } from '@fortawesome/free-brands-svg-icons'
