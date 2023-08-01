@@ -50,6 +50,16 @@ html {
   overflow-y: scroll;
   margin-top: 10vh;
   border-radius: 20px;
+  background-image: linear-gradient(
+    280deg,
+    hsl(26deg 60% 18%) 0%,
+    hsl(10deg 23% 35%) 38%,
+    hsl(4deg 18% 46%) 49%,
+    hsl(0deg 19% 55%) 54%,
+    hsl(284deg 6% 50%) 58%,
+    hsl(210deg 24% 49%) 67%,
+    hsl(197deg 76% 38%) 100%
+  );
   -webkit-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
@@ -69,6 +79,16 @@ html {
   background-color: rgba(0, 0, 0, 0.222);
   overflow-y: scroll;
   border-radius: 20px;
+   background-image: linear-gradient(
+    280deg,
+    hsl(26deg 60% 18%) 0%,
+    hsl(10deg 23% 35%) 38%,
+    hsl(4deg 18% 46%) 49%,
+    hsl(0deg 19% 55%) 54%,
+    hsl(284deg 6% 50%) 58%,
+    hsl(210deg 24% 49%) 67%,
+    hsl(197deg 76% 38%) 100%
+  );
   -webkit-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
@@ -128,6 +148,16 @@ html {
   width: 85%;
   padding: 2rem;
   border-radius: 20px;
+  background-image: linear-gradient(
+    280deg,
+    hsl(26deg 60% 18%) 0%,
+    hsl(10deg 23% 35%) 38%,
+    hsl(4deg 18% 46%) 49%,
+    hsl(0deg 19% 55%) 54%,
+    hsl(284deg 6% 50%) 58%,
+    hsl(210deg 24% 49%) 67%,
+    hsl(197deg 76% 38%) 100%
+  );
   -webkit-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
@@ -153,6 +183,7 @@ html {
   flex-wrap: wrap;
   width: 100%;
   padding: 1rem;
+  
 }
 
 .computer-icon {
@@ -296,6 +327,16 @@ html {
   border-radius: 20px;
   overflow-y: auto;
   overflow-x: auto;
+ background-image: linear-gradient(
+    280deg,
+    hsl(26deg 60% 18%) 0%,
+    hsl(10deg 23% 35%) 38%,
+    hsl(4deg 18% 46%) 49%,
+    hsl(0deg 19% 55%) 54%,
+    hsl(284deg 6% 50%) 58%,
+    hsl(210deg 24% 49%) 67%,
+    hsl(197deg 76% 38%) 100%
+  );
   -webkit-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
@@ -331,9 +372,19 @@ html {
   overflow-x: hidden;
   border-radius: 20px;
   max-height: 175vh;
-  -webkit-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(
+      280deg,
+      hsl(26deg 60% 18%) 0%,
+      hsl(10deg 23% 35%) 38%,
+      hsl(4deg 18% 46%) 49%,
+      hsl(0deg 19% 55%) 54%,
+      hsl(284deg 6% 50%) 58%,
+      hsl(210deg 24% 49%) 67%,
+      hsl(197deg 76% 38%) 100%
+    );
+    -webkit-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none;
 }
@@ -441,6 +492,16 @@ html {
   border-radius: 20px;
   max-height: 175vh;
   height: 60vh;
+  background-image: linear-gradient(
+    280deg,
+    hsl(26deg 60% 18%) 0%,
+    hsl(10deg 23% 35%) 38%,
+    hsl(4deg 18% 46%) 49%,
+    hsl(0deg 19% 55%) 54%,
+    hsl(284deg 6% 50%) 58%,
+    hsl(210deg 24% 49%) 67%,
+    hsl(197deg 76% 38%) 100%
+  );
   -webkit-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
