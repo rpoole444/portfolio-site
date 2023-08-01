@@ -17,7 +17,7 @@ const Homepage = () => {
           <img className="computer-icon" src={pictureReid} alt="trumpet" />
         </section>
           <a
-            href="https://docs.google.com/document/d/1_BI4wNwixRBp0fDo2d8urPAhEb04QGbMv5I2DEE6kAA/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1CNteHIPiknUZhz6h1OpUYTilBPr_m1SUuJb5u3t1llo/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
@@ -28,34 +28,19 @@ const Homepage = () => {
         <article className="read-about">
           <h3>Software Development Experience</h3>
           <p className="about-me-text">
-            I am a versatile software developer with a strong foundation in
-            JavaScript, React.js, Router, HTML, and CSS. My backend expertise
-            lies in building full-stack applications using Express.js, Knex.js,
-            and PostgreSQL, enabling me to create seamless web experiences.
+            I am Reid Poole, a Software Engineer with a rhythm. My journey through music and education has led me to the world of technology, creating a harmonic intersection of creativity, teaching, and programming.
           </p>
           <p className="about-me-text">
-            What sets me apart is my deep connection to music and its language,
-            which I seamlessly relate to code. As a professional musician with
-            13 years of full-time performance experience in New Orleans and on
-            national and international tours, I have honed my intuition and
-            creativity, allowing me to approach software development from a
-            unique perspective.
+            Diving into software development with the same passion I have for music, I have gained proficiency in various technologies, including JavaScript, React.js, TypeScript, Express.js, AWS(Cognito, Lambda), PostgreSQL and DynamoDB, among others. With over 2000 hours of coding under my belt, I can confidently orchestrate full-stack applications that deliver seamless and engaging web experiences.
           </p>
           <p className="about-me-text">
-            I am also a passionate educator with over 15 years of teaching
-            experience, spanning middle school to higher education. My work as a
-            professor of Music Industry at Dillard University demonstrates my
-            dedication to sharing knowledge and inspiring the next generation.
+            For 13 years, I've been hitting high notes as a full-time musician, performing both locally in New Orleans and on national and international tours. I don't just play music; I breathe music. It's this deep-rooted bond with musical language that lends a unique rhythm to my code, adding a layer of creativity, intuition, and structure to my software development practices.
           </p>
           <p className="about-me-text">
-            One of my proudest achievements combines my three passions—software
-            development, music, and education—through my role as a digital
-            archivist for the Louis Armstrong House Museum in Queens, NY. I had
-            the privilege of helping to develop an accessible online platform
-            for fans and users to explore the rich history of Louis Armstrong.
+            Teaching has been another key motif in my symphony of experiences. For over 15 years, I have been inspiring students across various age levels, from middle school to university. As a former professor in the Music Industry at Dillard University, I have had the privilege of sharing my knowledge and passion with the next generation of creatives.
           </p>
           <p className="about-me-text">
-            Check out the Louis Armstrong House Museum Digital Collection here:{" "}
+            One of the grand crescendos in my career was serving as a digital archivist for the Louis Armstrong House Museum, where my love for software development, music, and education harmonized in a beautiful opus. Through this role, I had the unique opportunity to bring the rich history of Louis Armstrong closer to fans and users worldwide. Check out the Louis Armstrong House Museum Digital Collection here:{" "}
             <a
               className="link"
               href="https://collections.louisarmstronghouse.org/"
@@ -64,61 +49,15 @@ const Homepage = () => {
             </a>
           </p>
           <p className="about-me-text">
-            On a personal note, I am an avid runner, a witty jokester, and a
-            devoted enthusiast of breweries and BBQ joints. Above all, I am a
-            loving husband and proud father of two beautiful children.
+            Off the stage and away from the keyboard, I am an avid runner and a connoisseur of breweries and BBQ joints. At the end of the day, my favorite role is being a loving husband and a proud father of two amazing kids.
           </p>
           <p className="about-me-text">
-            My unique background and love for music, education, and technology
-            enable me to approach software development with empathy, creativity,
-            and a deep understanding of human connection, making me a valuable
-            addition to any team.
+            With a score composed of empathy, creativity, and a deep understanding of human connection, I approach software development with a unique melody. Whether I'm leading a cross-functional team or supporting one, my goal is always to inspire, innovate, and impact, one line of code (or note) at a time. Welcome to the symphony of my life. Let's make music together.
           </p>
         </article>
       </section>
       <section id="work" className="work-container">
         <h2>Personal and Professional Projects</h2>
-        <section className="project-container">
-          <h2 className="proj-title">Grant Guru</h2>
-          <section className="project-info">
-            <iframe
-              title="grantGuru"
-              frameBorder="0"
-              className="giphy-embed grant-guru"
-            ></iframe>
-            <section>
-              <article className="proj-description">
-                <p className="description-text">
-                  Grant Guru is an application that allows a user to explore a
-                  database full of Scholarship and grant applications to Help
-                  students find fincial aid with ease! Upon submition of the
-                  form, queries are sent to our backend where they filter the
-                  array of scholarships to fit the parameters and send us the
-                  filtered scholarships.A user is able to add and delete
-                  scholarships to and from their saved window. The app
-                  incorporates a responsive layout and will change its structure
-                  to fit both large and mobile displays.
-                </p>
-              </article>
-              <section className="proj-button-container">
-                <a
-                  href="https://github.com/grant-guru/grant-guru-fe"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="proj-buttons">Repo</button>
-                </a>
-                <a
-                  href="https://grant-guru-fe.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="proj-buttons">Visit Site</button>
-                </a>
-              </section>
-            </section>
-          </section>
-        </section>
         <section className="project-container">
           <h2 className="proj-title">Fiction Fountain</h2>
           <section className="project-info">
@@ -274,6 +213,47 @@ const Homepage = () => {
                 </a>
                 <a
                   href="https://artist-archive-fe.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Visit Site</button>
+                </a>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section className="project-container">
+          <h2 className="proj-title">Grant Guru</h2>
+          <section className="project-info">
+            <iframe
+              title="grantGuru"
+              frameBorder="0"
+              className="giphy-embed grant-guru"
+            ></iframe>
+            <section>
+              <article className="proj-description">
+                <p className="description-text">
+                  Grant Guru is an application that allows a user to explore a
+                  database full of Scholarship and grant applications to Help
+                  students find fincial aid with ease! Upon submition of the
+                  form, queries are sent to our backend where they filter the
+                  array of scholarships to fit the parameters and send us the
+                  filtered scholarships.A user is able to add and delete
+                  scholarships to and from their saved window. The app
+                  incorporates a responsive layout and will change its structure
+                  to fit both large and mobile displays.
+                </p>
+              </article>
+              <section className="proj-button-container">
+                <a
+                  href="https://github.com/grant-guru/grant-guru-fe"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="proj-buttons">Repo</button>
+                </a>
+                <a
+                  href="https://grant-guru-fe.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
