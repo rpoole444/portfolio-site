@@ -4,7 +4,7 @@ import logo from "../assets/music-maker-app.png"
 import logo2 from "../assets/insta.png"
 import logo3 from "../assets/github-mark.png"
 import logo4 from "../assets/linked.png"
-import { NavLink } from "react-router-dom";
+
 
 const Header = () => {
   return (
