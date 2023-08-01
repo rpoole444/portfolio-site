@@ -52,7 +52,7 @@ const Homepage = () => {
             Off the stage and away from the keyboard, I am an avid runner and a connoisseur of breweries and BBQ joints. At the end of the day, my favorite role is being a loving husband and a proud father of two amazing kids.
           </p>
           <p className="about-me-text">
-            With a score composed of empathy, creativity, and a deep understanding of human connection, I approach software development with a unique melody. Whether I'm leading a cross-functional team or supporting one, my goal is always to inspire, innovate, and impact, one line of code (or note) at a time. Welcome to the symphony of my life. Let's make music together.
+            With a score composed of empathy, creativity, and a deep understanding of human connection, I approach software development with a unique melody. Whether I'm leading a cross-functional team or supporting one, my goal is always to inspire, innovate, and impact, one line of code (or note) at a time. Welcome to the symphony of my life. Let's Create together.
           </p>
         </article>
       </section>
