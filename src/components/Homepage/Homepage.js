@@ -3,6 +3,11 @@ import "./Homepage.css";
 import ReidBeach from "../assets/ReidBeach.jpg";
 import pictureReid from "../assets/TrumpetReid2.jpg";
 import ContactForm from "../ContactForm/ContactForm";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAws } from '@fortawesome/free-brands-svg-icons'
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import Icon from '@mdi/react'
+import { mdiReact, mdiLanguageTypescript, mdiMaterialUi } from '@mdi/js'
 
 const Homepage = () => {
   return (
@@ -346,56 +351,25 @@ const Homepage = () => {
       <div className="scroll-wrapper">
         <section className="skills-container">
           <i className="devicon-javascript-plain colored skill-icon"></i>
-          <i className="devicon-typescript-plain colored skill-icon"></i>
-          <i className="devicon-react-original-wordmark colored skill-icon"></i>
+          <Icon path={mdiLanguageTypescript} className="skill-icon"/>
+          <Icon path={mdiReact} className="skill-icon"/>
+          <i className="devicon-react-native colored skill-icon"></i>
           <i className="devicon-redux-plain colored skill-icon"></i>
           <i className="devicon-html5-plain-wordmark colored skill-icon"></i>
           <i className="devicon-css3-plain-wordmark colored skill-icon"></i>
           <i className="devicon-express-original-wordmark skill-icon"></i>
           <i className="devicon-postgresql-plain-wordmark skill-icon"></i>
           <i className="devicon-nodejs-plain colored skill-icon"></i>
+          <FontAwesomeIcon icon={faAws} className="skill-icon" />
+          <FontAwesomeIcon icon={faDatabase} className="skill-icon" />  {/* Assuming this for DynamoDB */}
+          <Icon path={mdiMaterialUi} className="skill-icon"/>
+          
         </section>
       </div>
       <h2 id="music" className="technologies-title">
         Music
       </h2>
-
       <section className="music-container">
-        <article className="">
-          <h3>Music and Me ...</h3>
-          <p className="about-me-text">
-            Reid Poole, originally from Fountain, Colorado, has called New
-            Orleans home for over eight years. A versatile musician, Reid leads
-            several bands, including Dinosaurchestra, The Hi-Fi Swingtet, the
-            New Orleans Night Owls, and the Reid Poole Quintet. When not
-            fronting a band, Reid is a sought-after sideman for numerous local
-            acts such as the Panorama Brass Band, The New Orleans Cottonmouth
-            Kings, Trumpet Mafia, Big Fun Brass Band, Fritzel's All-Stars, The
-            Dukes, and The Essentials.
-          </p>
-          <p className="about-me-text">
-            With a proficiency in various styles, Reid moves seamlessly between
-            Blues, Traditional New Orleans Brass Band and Jazz, Swing, Bebop,
-            and more. He holds a Bachelor's degree in Music Education and Jazz
-            Performance from the University of Northern Colorado and a Master's
-            degree in Jazz and Contemporary Media from the Eastman School of
-            Music. During his final year at Eastman, Reid joined the Glenn
-            Miller Orchestra's trumpet section, touring across the US, Japan,
-            and Canada. Following the tour and completion of his Master's
-            degree, Reid settled in New Orleans, performing with talented
-            musicians at renowned venues like the Spotted Cat Music Club,
-            d.b.a., the Royal Frenchmen Hotel, Fritzel's, the Creole Queen and
-            the Natchez Paddleboats, and Snug Harbor.
-          </p>
-          <p className="about-me-text">
-            A firm believer in giving back, Reid teaches at the New Orleans Jazz
-            Orchestra Music Program (formerly the Irvin Mayfield School of Music
-            - “Jazz Ambassador’s Ensemble”), the Louisiana Academy for
-            Performing Arts (LAAPA), and Dillard University's Music Industry
-            Department. He also maintains a private lesson studio, mentoring
-            dedicated students of all ages.
-          </p>
-        </article>
         <section className="music-website-container">
           <a href="https://www.reidpoole.com/" target="_blank" rel="noreferrer">
             <button className="website-widget">Personal Music Website</button>
