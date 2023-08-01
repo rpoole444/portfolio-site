@@ -2,7 +2,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 16%;
+  height: 18%;
   background-color: rgba(142, 131, 131, 0.778);
   position: fixed;
   top: 0;
@@ -27,8 +27,9 @@ header {
 .logo-container {
   margin-right: 2vw;
   display: flex;
+  flex-direction:row;
   width: 19vw;
-  height: 7vh;
+  height: 5vh;
   background-color: rgba(128, 128, 128, 0.209);
   border-radius: 12px;
   border: 2px solid black;
@@ -39,7 +40,8 @@ header {
   box-shadow: 10px 14px 33px 1px rgba(0, 0, 0, 0.75);
 }
 .logo-side {
-  height: 8vh;
+  height: 1vh;
+
 }
 
 .button {
@@ -125,4 +127,35 @@ header {
 
 @media (min-width: 1024px) {
   /* Styles for desktops and larger screens */
+
+  .header {
+    height: 20%; /* Adjust header height as needed */
+  }
+
+  .logo {
+    height: 15vh; /* Adjust logo height as needed */
+    margin-left: 3vw; /* Adjust left margin as needed */
+  }
+
+  .list-container {
+    width: 65%; /* Adjust width as needed */
+    font-size: xx-large; /* Adjust font size as needed */
+  }
+
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    width: 17vw; /* Adjust width as needed */
+    height: 10vh; /* Adjust height as needed */
+    margin-right: 3vw; /* Adjust right margin as needed */
+  }
+
+  .logo-side {
+    height: 1vh; /* Adjust height as needed */
+  }
+
+  .button {
+    font-size: large; /* Adjust font size as needed */
+  }
 }
+
