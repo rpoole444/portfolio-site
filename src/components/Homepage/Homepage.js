@@ -17,7 +17,7 @@ const Homepage = () => {
           <img className="computer-icon" src={pictureReid} alt="trumpet" />
         </section>
           <a
-            href="https://docs.google.com/document/d/1CNteHIPiknUZhz6h1OpUYTilBPr_m1SUuJb5u3t1llo/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1F65kbWDbKYItOq664LcVxjfwtEJbfwak/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
