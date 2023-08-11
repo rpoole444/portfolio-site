@@ -1,0 +1,34 @@
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.animation-container {
+    position: relative;
+    width: 300px;  /* Modify based on the size of your images or the desired container size */
+    height: 300px; 
+    overflow: visible;
+    margin: 20px auto; /* Centering the animation horizontally and giving it some space top and bottom */
+}
+
+.animate-object {
+    position: absolute;
+    bottom: 50%;
+    width: 50%;  /* Adjust this based on your image sizes and container dimensions */
+    transform-origin: 50% 200%;  /* Pivots from the bottom middle of each image */
+    transition: transform 1s ease-in-out;  /* Adjust the timing and easing as desired */
+}
+
+#computer {
+    animation: rotate360 20s linear reverse infinite; /* 20s is the duration of one full rotation. Adjust this value to make the rotation faster or slower. */
+}
+
+#trumpet {
+    animation: rotate360 20s linear infinite; /* The 'reverse' value makes the trumpet rotate in the opposite direction. */
+}
+

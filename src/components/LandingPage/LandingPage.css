@@ -56,7 +56,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .info-section{
   display: flex;
@@ -74,7 +74,24 @@
 
 .reid-photo {
   height: 60vh;
+  margin-right: 5vw;
 }
+
+.animationLP-container {
+  display: flex;
+  justify-content: center; /* To center the animation horizontally */
+  align-items: flex-start; /* To align the animation to the top */
+  flex-grow: 1; /* To let it occupy any available space */
+  padding-right: 7rem; /* A bit of spacing between the animation and the picture, adjust as needed */
+  background: url('../assets/aspenGrove.jpg') no-repeat center center;
+  background-size:cover;
+  width: 70%;  /* Adjust as needed */
+  height: 125%;
+  border-radius: 20%;
+  background-position: right;
+  }
+
+
 
 .submit-button {
  font-size: 16px;
@@ -85,6 +102,7 @@
  background: #fff;
  transition: all 0.1s linear;
  box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+ margin-top: 30px;
 }
 
 .submit-button:active {
@@ -125,6 +143,11 @@
     .logo-side {
     height: 5vh;
   }
+    .animationLP-container {
+        width: 60vw;  /* Adjust this value based on the space you want the animation to take */
+        height: auto; /* This will ensure that the container wraps the content */
+        margin: 0 auto; /* This will center the animation if there's any additional space */
+      }
 
   .skillz {
     font-size: 4vh;
@@ -176,6 +199,12 @@
     font-size: 4vh;
   }
 
+  .animationLP-container {
+      width: 80vw; /* Giving it more space on smaller screens */
+      height: auto; /* Auto for content wrapping */
+      margin: 0 auto; /* Centering the animation */
+    }
+    
   .entrance-container {
     flex-direction: column;
   }

@@ -5,9 +5,10 @@ import logo3 from "../assets/github-mark.png";
 import logo4 from "../assets/linked.png";
 import trumpet1 from "../assets/TrumpetReid1.jpg";
 import { useHistory } from "react-router-dom";
-import { motion } from "framer-motion"
-import { useSpring } from '@react-spring/core'
-import { animated } from "@react-spring/web"
+import { motion } from "framer-motion";
+import { useSpring } from '@react-spring/core';
+import { animated } from "@react-spring/web";
+import AnimationLP from "../AnimationLP/Animation";
 
 
 const LandingPage = () => {
@@ -76,10 +77,13 @@ const LandingPage = () => {
         <animated.section style={fadeInSkillz}className="info-section">
           <h1 className="main-title"> Reid Poole - Software Engineer</h1>
           <h2 className="sub-main-title"> Musician | Educator | Father | Husband</h2>
+          <div className="animationLP-container">
+            <AnimationLP />
+          </div>
           <button class="full-rounded submit-button" onClick={() => handleClick()}>
-          <span>Enter Site</span>
-          <div class="border full-rounded"></div></button>
-        
+            <span>Enter Site</span>
+            <div class="border full-rounded"></div>
+          </button>
         </animated.section>
         <animated.div style={fadeIn}>
           <motion.img whileHover={hoverAnimation} className="reid-photo" src={trumpet1} alt="Reid Playing Trumpet" />
