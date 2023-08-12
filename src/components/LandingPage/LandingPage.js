@@ -77,13 +77,13 @@ const LandingPage = () => {
         <animated.section style={fadeInSkillz}className="info-section">
           <h1 className="main-title"> Reid Poole - Software Engineer</h1>
           <h2 className="sub-main-title"> Musician | Educator | Father | Husband</h2>
-          <div className="animationLP-container">
-            <AnimationLP />
-          </div>
           <button class="full-rounded submit-button" onClick={() => handleClick()}>
             <span>Enter Site</span>
             <div class="border full-rounded"></div>
           </button>
+          <div className="animationLP-container">
+            <AnimationLP />
+          </div>
         </animated.section>
         <animated.div style={fadeIn}>
           <motion.img whileHover={hoverAnimation} className="reid-photo" src={trumpet1} alt="Reid Playing Trumpet" />
