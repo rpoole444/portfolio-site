@@ -1,7 +1,12 @@
 .entrance-container {
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-image: linear-gradient(
+  180deg,
+  hsl(0deg 0% 0%) 0%,
+  hsl(60deg 1% 18%) 50%,
+  hsl(60deg 1% 36%) 100%
+);
 }
 
 .social-logos {
@@ -75,28 +80,27 @@
 .reid-photo {
   height: 60vh;
   margin-right: 5vw;
+  border-radius: 20%;
 }
 
 .animationLP-container {
   display: flex;
   justify-content: center; /* To center the animation horizontally */
-  align-items: flex-start; /* To align the animation to the top */
+  align-items: center; /* To align the animation to the top */
   flex-grow: 1; /* To let it occupy any available space */
-  padding-right: 7rem; /* A bit of spacing between the animation and the picture, adjust as needed */
-  background: url('../assets/aspenGrove.jpg') no-repeat center center;
-  background-size:cover;
+  padding-right: 2rem; /* A bit of spacing between the animation and the picture, adjust as needed */
   width: 70%;  /* Adjust as needed */
-  height: 125%;
+  height: 100%;
   border-radius: 20%;
-  background-position: right;
+  background-position: center bottom;
+  
   }
-
-
 
 .submit-button {
  font-size: 16px;
  position: relative;
- margin: auto;
+ margin-left: auto;
+ margin-right: auto;
  padding: 1em 2.5em 1em 2.5em;
  border: none;
  background: #fff;
@@ -143,11 +147,6 @@
     .logo-side {
     height: 5vh;
   }
-    .animationLP-container {
-        width: 60vw;  /* Adjust this value based on the space you want the animation to take */
-        height: auto; /* This will ensure that the container wraps the content */
-        margin: 0 auto; /* This will center the animation if there's any additional space */
-      }
 
   .skillz {
     font-size: 4vh;
@@ -189,22 +188,19 @@
 /* iPads (portrait) */
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1024px)
-  and (orientation: portrait) {
+  and (max-device-width: 1024px) {
 .logo-side {
     height: 5vh;
   }
-
+.submit-button {
+        font-size: 12px; /* reduce font size */
+        padding: 0.5em 1.25em; /* reduce padding */
+        margin-top: 15px; /* adjust margin */
+    }
   .skillz {
     font-size: 4vh;
   }
 
-  .animationLP-container {
-      width: 80vw; /* Giving it more space on smaller screens */
-      height: auto; /* Auto for content wrapping */
-      margin: 0 auto; /* Centering the animation */
-    }
-    
   .entrance-container {
     flex-direction: column;
   }
@@ -240,11 +236,21 @@
 
 /* iPhones and smaller devices (portrait) */
 @media only screen 
-  and (max-device-width: 767px)
-  and (orientation: portrait) {
+  and (max-device-width: 767px) {
   .entrance-container {
     flex-direction: column;
   }
+
+.submit-button {
+        font-size: 12px; /* reduce font size */
+        padding: 0.5em 1.25em; /* reduce padding */
+        margin-top: 15px; /* adjust margin */
+    }
+
+    .animationLP-container {
+        width: 50%;  /* Adjust to a suitable size */
+        height: 60%; /* Adjust to a suitable size */
+    }
 
   .aside {
     width: 100vw;
@@ -332,4 +338,6 @@
     height: 45vh;
   }
 }
+
+
 
